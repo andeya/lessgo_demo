@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/henrylee2cn/thinkgo"
+	"github.com/lessgo/lessgo"
+	"github.com/lessgo/lessgo/engine/standard"
 )
 
 func main() {
-
+	lessgo.Run(standard.NewFromConfig)
 }
