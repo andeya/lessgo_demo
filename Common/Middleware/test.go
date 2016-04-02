@@ -1,6 +1,8 @@
 package Middleware
 
 import (
+	"errors"
+
 	"github.com/lessgo/lessgo"
 	"github.com/lessgo/lessgo/logs"
 )
@@ -16,6 +18,6 @@ func init() {
 	})
 	lessgo.RegMiddleware("/home/index中间件", "描述可以省略", func(ctx lessgo.Context) error {
 		logs.Info("/home/index中间件")
-		return nil
+		return errors.New("/home/index中间件 error")
 	})
 }
