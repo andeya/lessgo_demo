@@ -6,6 +6,7 @@ import (
 	"github.com/lessgo/lessgo/engine/fasthttp"
 
 	_ "github.com/lessgo/demo/Business"
+	_ "github.com/lessgo/demo/Common/Middleware"
 	_ "github.com/lessgo/demo/System"
 )
 
