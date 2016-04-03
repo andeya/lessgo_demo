@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/lessgo/lessgo"
-	// "github.com/lessgo/lessgo/engine/standard"
-	"github.com/lessgo/lessgo/engine/fasthttp"
+	. "github.com/lessgo/lessgo/engine/standard"
+	// . "github.com/lessgo/lessgo/engine/fasthttp"
 
 	_ "github.com/lessgo/demo/Business"
 	_ "github.com/lessgo/demo/Common/Middleware"
@@ -11,6 +11,5 @@ import (
 )
 
 func main() {
-	// lessgo.Run(standard.NewFromConfig)
-	lessgo.Run(fasthttp.NewFromConfig)
+	lessgo.Run(NewFromConfig)
 }
