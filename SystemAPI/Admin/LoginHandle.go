@@ -1,4 +1,4 @@
-package AdminModule
+package Admin
 
 import (
 	"github.com/lessgo/lessgo"
@@ -6,7 +6,7 @@ import (
 
 func LoginHandle(ctx lessgo.Context) error {
 	return ctx.Render(200,
-		"System/AdminModule/View/login.html",
+		"SystemView/Admin/login.html",
 		map[string]interface{}{
 			"name":     ctx.Param("user"),
 			"password": ctx.Param("password"),

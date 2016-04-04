@@ -1,4 +1,4 @@
-package AdminModule
+package Admin
 
 import (
 	"time"

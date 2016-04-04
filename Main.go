@@ -5,9 +5,9 @@ import (
 	. "github.com/lessgo/lessgo/engine/standard"
 	// . "github.com/lessgo/lessgo/engine/fasthttp"
 
-	_ "github.com/lessgo/demo/Business"
+	_ "github.com/lessgo/demo/BusinessAPI"
 	_ "github.com/lessgo/demo/Common/Middleware"
-	_ "github.com/lessgo/demo/System"
+	_ "github.com/lessgo/demo/SystemAPI"
 )
 
 func main() {

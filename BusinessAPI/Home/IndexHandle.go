@@ -1,4 +1,4 @@
-package HomeModule
+package Home
 
 import (
 	"github.com/lessgo/lessgo"

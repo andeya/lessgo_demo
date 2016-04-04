@@ -1,4 +1,4 @@
-package System
+package SystemAPI
 
 import (
 	"github.com/lessgo/lessgo"
