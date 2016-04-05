@@ -9,7 +9,7 @@ import (
 
 func init() {
 	lessgo.RegMiddleware("进入分组路由", "描述可以省略", func(ctx lessgo.Context) error {
-		logs.Info("进入分组路由")
+		ctx.Logger().Info("进入分组路由")
 		return nil
 	})
 	lessgo.RegMiddleware("/home中间件", "描述可以省略", func(ctx lessgo.Context) error {

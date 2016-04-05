@@ -1,0 +1,5 @@
+package Admin
+
+func init() {
+
+}
