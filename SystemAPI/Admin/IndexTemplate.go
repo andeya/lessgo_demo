@@ -1,5 +1,0 @@
-package Admin
-
-func init() {
-
-}

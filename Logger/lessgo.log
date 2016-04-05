@@ -1,0 +1,37 @@
+2016/04/05 22:31:55  | GET     | /home                          | can be used with static middleware
+2016/04/05 22:31:55  | GET     | /home                          | github.com/lessgo/demo/BusinessAPI/Home.IndexHandle
+2016/04/05 22:31:55  | GET     | /home/index                    | github.com/lessgo/demo/BusinessAPI/Home.IndexHandle
+2016/04/05 22:31:55  | GET     | /admin                         | can be used with static middleware
+2016/04/05 22:31:55  | CONNECT | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | DELETE  | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | GET     | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | HEAD    | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | OPTIONS | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | PATCH   | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | POST    | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | PUT     | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | TRACE   | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | CONNECT | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | DELETE  | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | GET     | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | HEAD    | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | OPTIONS | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | PATCH   | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | POST    | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | PUT     | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | TRACE   | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.IndexHandle
+2016/04/05 22:31:55  | GET     | /admin/login                   | can be used with static middleware
+2016/04/05 22:31:55  | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/SystemAPI/Admin/Login.IndexHandle
+2016/04/05 22:31:55  | GET     | /admin/login/index/:user/:password | github.com/lessgo/demo/SystemAPI/Admin/Login.IndexHandle
+2016/04/05 22:31:55  | POST    | /admin/login/:user/:password   | github.com/lessgo/demo/SystemAPI/Admin/Login.IndexHandle
+2016/04/05 22:31:55  | POST    | /admin/login/index/:user/:password | github.com/lessgo/demo/SystemAPI/Admin/Login.IndexHandle
+2016/04/05 22:31:55  | GET     | /favicon.ico                   | Static/Img/favicon.ico
+2016/04/05 22:31:55  | GET     | /uploads*                      | Uploads
+2016/04/05 22:31:55  | GET     | /static*                       | Static
+2016/04/05 22:31:55  | GET     | /static/img*                   | Static/Img
+2016/04/05 22:31:55  | GET     | /static/js*                    | Static/Js
+2016/04/05 22:31:55  | GET     | /static/css*                   | Static/Css
+2016/04/05 22:31:55  | GET     | /static/plugin*                | Static/Plugin
+2016/04/05 22:31:55  | GET     | /business*                     | BusinessView
+2016/04/05 22:31:55  | GET     | /system*                       | SystemView
+2016/04/05 22:31:55  > lessgo-demo listening and serving HTTP on 0.0.0.0:8080 (release-mode)

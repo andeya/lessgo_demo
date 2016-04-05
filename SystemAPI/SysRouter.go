@@ -11,8 +11,10 @@ func init() {
 	lessgo.RootRouter(
 		lessgo.SubRouter("/admin", "后台管理", "管理整个项目的运行",
 			lessgo.Any("后台首页", "后台管理的首页", Admin.IndexHandle),
-			lessgo.Get("后台登陆", "登陆管理后台", Login.LoginHandle, "/:user/:password"),
-			lessgo.Post("后台登陆", "登陆管理后台", Login.LoginHandle, "/:user/:password"),
+			lessgo.SubRouter("/login", "后台登陆", "登陆管理后台",
+				lessgo.Get("后台登陆", "登陆管理后台", Login.IndexHandle, "/:user/:password"),
+				lessgo.Post("后台登陆", "登陆管理后台", Login.IndexHandle, "/:user/:password"),
+			),
 		),
 	)
 }

@@ -11,5 +11,6 @@ import (
 )
 
 func main() {
+	lessgo.SetHome("/home")
 	lessgo.Run(NewFromConfig)
 }

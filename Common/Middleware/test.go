@@ -8,16 +8,16 @@ import (
 )
 
 func init() {
-	lessgo.RegMiddleware("进入分组路由", "描述可以省略", func(ctx lessgo.Context) error {
-		ctx.Logger().Info("进入分组路由")
+	lessgo.RegMiddleware("打印一些东西", "描述可以省略", func(ctx lessgo.Context) error {
+		ctx.Logger().Info("打印一些东西：1234567890")
 		return nil
 	})
-	lessgo.RegMiddleware("/home中间件", "描述可以省略", func(ctx lessgo.Context) error {
-		logs.Info("/home中间件")
+	lessgo.RegMiddleware("显示Header", "描述可以省略", func(ctx lessgo.Context) error {
+		logs.Info("%v", ctx.Request().Header().Keys())
 		return nil
 	})
-	lessgo.RegMiddleware("/home/index中间件", "描述可以省略", func(ctx lessgo.Context) error {
-		logs.Info("/home/index中间件")
-		return errors.New("/home/index中间件 error")
+	lessgo.RegMiddleware("故意报错", "描述可以省略", func(ctx lessgo.Context) error {
+		logs.Info("中间件故意报错")
+		return errors.New("中间件故意报错 error")
 	})
 }
