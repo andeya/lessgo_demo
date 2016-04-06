@@ -3,9 +3,11 @@
 
 ![Lessgo Favicon](https://github.com/lessgo/lessgo/raw/master/doc/favicon.png)
 
-Lessgo 是 Go 语言编写的一款简单、稳定、高效、灵活的 web 完全开发框架。它博采众长，核心架构改写自[echo v2](https://github.com/labstack/echo)，数据库内置为[xorm](https://github.com/go-xorm/xorm)，模板引擎内置为[pongo2](https://github.com/flosch/pongo2)，其他某些功能模块改写自[beego](https://github.com/astaxie/beego)以及其他优秀开源项目。
+Lessgo 是一款 Go 语言编写的简单、稳定、高效、灵活的 web 完全开发框架。它采用精心设计的项目组织形式，前后端分离、系统与业务分离，完美兼容MVC与MVVC等多种模式，非常便于开发企业级的全站应用或API应用。
 
-Lessgo推荐使用函数式编程风格进行Web应用开发，HandlerFunc与MiddlewareFunc是一个项目的基础组成单元。它在项目组织上完美兼容网站全站与仅API两种类型的项目部署，同时支持运行时动态重建路由，这意味着后期运维可以在Admin中进行配置中间件、禁用与启用模块/操作等！（Lessgo在此感谢那些优秀开源项目的支持）
+Lessgo 在具体实现方面推荐使用函数式编程风格，HandlerFunc与MiddlewareFunc形成项目的基础单元。由于它突破性地支持运行时重建路由，因此后期运维可以在Admin中轻松配置中间件、禁用/启用模块与操作等！
+
+此外它博采众长，核心架构改写自[echo v2](https://github.com/labstack/echo)，数据库内置为[xorm](https://github.com/go-xorm/xorm)，模板引擎内置为[pongo2](https://github.com/flosch/pongo2)，其他某些功能模块改写自[beego](https://github.com/astaxie/beego)以及其他优秀开源项目。（在此感谢这些优秀的开源项目）
 
 * 官方QQ群：Go-Web 编程 42730308    [![Go-Web 编程群](http://pub.idqqimg.com/wpa/images/group.png)](http://jq.qq.com/?_wv=1027&k=fzi4p1)
 
