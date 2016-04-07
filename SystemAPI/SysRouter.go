@@ -1,19 +1,19 @@
 package SystemAPI
 
 import (
-	"github.com/lessgo/lessgo"
+	. "github.com/lessgo/lessgo"
 
 	"github.com/lessgo/demo/SystemAPI/Admin"
 	"github.com/lessgo/demo/SystemAPI/Admin/Login"
 )
 
 func init() {
-	lessgo.RootRouter(
-		lessgo.SubRouter("/admin", "后台管理", "管理整个项目的运行",
-			lessgo.Any("后台首页", "后台管理的首页", Admin.IndexHandle),
-			lessgo.SubRouter("/login", "后台登陆", "登陆管理后台",
-				lessgo.Get("后台登陆", "登陆管理后台", Login.IndexHandle, "/:user/:password"),
-				lessgo.Post("后台登陆", "登陆管理后台", Login.IndexHandle, "/:user/:password"),
+	RootRouter(
+		SubRouter("/admin", "后台管理",
+			Any("index", "后台首页", Admin.IndexHandle),
+			SubRouter("/login", "后台登陆",
+				Get(":user/:password", "后台登陆", Login.IndexHandle),
+				Post(":user/:password", "后台登陆", Login.IndexHandle),
 			),
 		),
 	)
