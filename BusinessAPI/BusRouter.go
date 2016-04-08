@@ -8,7 +8,7 @@ import (
 
 func init() {
 	lessgo.RootRouter(
-		lessgo.SubRouter("/", "前台",
+		lessgo.SubRouter("/home", "前台",
 			lessgo.Get("index", "首页", Home.IndexHandle, "显示Header"),
 		).Use("打印一些东西"),
 	)
