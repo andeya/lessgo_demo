@@ -5,9 +5,7 @@ import (
 )
 
 var IndexHandle = DescHandler{
-	Description: "后台管理登录操作",
-	Success:     "200 | 返回输入的用户名和密码",
-	Failure:     "",
+	Desc: "后台管理登录操作",
 	Param: map[string]string{
 		"user":     "string | 用户名",
 		"password": "string | 密码",
