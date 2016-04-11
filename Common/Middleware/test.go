@@ -5,6 +5,7 @@ import (
 
 	"github.com/lessgo/lessgo"
 	"github.com/lessgo/lessgo/logs"
+	"github.com/lessgo/lessgoext/middleware"
 )
 
 func init() {
@@ -20,4 +21,5 @@ func init() {
 		logs.Info("中间件故意报错")
 		return errors.New("中间件故意报错 error")
 	})
+	lessgo.RegMiddleware("static", "serves static content from ./Uploads.", middleware.Static("Uploads"))
 }
