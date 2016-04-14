@@ -4,7 +4,7 @@ import (
 	. "github.com/lessgo/lessgo"
 )
 
-var IndexHandle = DescHandler{
+var IndexHandle = &DescHandler{
 
 	Handler: func(ctx Context) error {
 		return ctx.Render(

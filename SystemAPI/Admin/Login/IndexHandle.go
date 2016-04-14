@@ -5,10 +5,23 @@ import (
 )
 
 var IndexHandle = DescHandler{
-	Desc: "后台管理登录操作",
-	Param: map[string]string{
-		"user":     "string | 用户名",
-		"password": "string | 密码",
+	Desc:     "后台管理登录操作",
+	Produces: []string{"application/html"},
+	Params: []Param{
+		{
+			Name:     "user",
+			In:       "path",
+			Required: true,
+			Format:   "",
+			Desc:     "用户名",
+		},
+		{
+			Name:     "password",
+			In:       "path",
+			Required: true,
+			Format:   "",
+			Desc:     "密码",
+		},
 	},
 	Handler: func(ctx Context) error {
 		return ctx.Render(200,
