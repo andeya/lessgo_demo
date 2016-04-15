@@ -6,7 +6,7 @@
     <title>{{title}}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link href="/business/home/index.css" rel="stylesheet" type="text/css" />
+    <link href="/bus/home/index.css" rel="stylesheet" type="text/css" />
     <script src="/static/js/jquery.js"></script>
 </head>
 
@@ -21,7 +21,7 @@
         </div>
         <!-- github -->
         <div>
-            <script type="text/javascript" src="/business/home/jquery.githubRepoWidget2.js"></script>
+            <script type="text/javascript" src="/bus/home/jquery.githubRepoWidget2.js"></script>
             <div class="github-widget" data-repo="lessgo/lessgo" style="margin:5px;"></div>
         </div>
     </div>
