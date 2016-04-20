@@ -12,8 +12,8 @@ func init() {
 		SubRouter("/admin", "后台管理",
 			Any("index", "后台首页", Admin.IndexHandle),
 			SubRouter("/login", "后台登陆",
-				Get(":user/:password", "后台登陆", Login.IndexHandle),
-				Post(":user/:password", "后台登陆", Login.IndexHandle),
+				Get(":user/:password", "后台登陆GET", Login.IndexHandle),
+				Post(":user/:password", "后台登陆POST", Login.IndexHandle),
 			).Use("static"),
 		).Use("static"),
 	)
