@@ -24,6 +24,22 @@ var IndexHandle = DescHandler{
 		},
 	},
 	Handler: func(ctx Context) error {
+		sess, err := ctx.SessionStart()
+		if err != nil {
+			ctx.Logger().Error("%v", err)
+		} else {
+			err = sess.Set("user", ctx.Param("user"))
+			if err != nil {
+				ctx.Logger().Error("Set session [user] failed: %v", err)
+			}
+			err = sess.Set("password", ctx.Param("password"))
+			if err != nil {
+				ctx.Logger().Error("Set session [user] failed: %v", err)
+			}
+			ctx.Logger().Info("session user: %v", sess.Get("user"))
+			ctx.Logger().Info("session password: %v", sess.Get("password"))
+		}
+
 		return ctx.Render(200,
 			"SystemView/Admin/Login/index.tpl",
 			map[string]interface{}{
