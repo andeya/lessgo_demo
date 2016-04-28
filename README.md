@@ -14,24 +14,13 @@ Lessgo 是一款Go 语言开发的简单、稳定、高效、灵活的 web开发
 - Restful API服务应用
 - 企业应用
 
-##主要特点:
-- 使用简单、运行稳定高效
-- 兼容流行系统模式如:MVC、MVVC、Restful...
-- 强大的运行时路由重建
-- 多异构数据库支持
-- 优化的项目目录组织最佳实践，满足复杂企业应用需要
-- swagger集成智能API文档
-- 集成统一的日志
-- SQLMAP方式的动态SQL配置执行API(开发中)
-- 开箱即用的权限体系(计划)
-
 ##项目架构
 ![Lessgo Web Framework](https://github.com/lessgo/lessgo/raw/master/doc/LessgoWebFramework.jpg)
 
 ##框架构成
 - 核心框架：[lessgo](https://github.com/lessgo/lessgo)
 - 框架扩展：[lessgoext](https://github.com/lessgo/lessgoext)
-- 项目Demo：[demo](https://github.com/lessgo/lessgoext)
+- 项目Demo：[demo](https://github.com/lessgo/demo)
 
 ##框架下载
 
@@ -39,61 +28,6 @@ Lessgo 是一款Go 语言开发的简单、稳定、高效、灵活的 web开发
 go get -u github.com/lessgo/lessgo
 go get -u github.com/lessgo/lessgoext
 ```
-
-##项目目录组织
-─Project 项目开发目录  
-├─Config 配置文件目录  
-│  ├─app.config 系统应用配置文件  
-│  └─db.config 数据库配置文件  
-├─Common 后端公共目录  
-│  ├─Middleware 中间件目录  
-│  └─Model 数据模型  
-│  └─... 其他  
-├─Static 前端公共目录 (url: /static)  
-│  ├─Tpl 公共tpl模板目录  
-│  ├─Js 公共js目录 (url: /static/js)  
-│  ├─Css 公共css目录 (url: /static/css)  
-│  ├─Img 公共img目录 (url: /static/img)  
-│  └─Plugin 公共js插件 (url: /static/plugin)  
-├─SystemAPI 系统模块后端目录  
-│  ├─SysRouter.go 系统模块路由文件  
-│  ├─SysCommon 后端公共目录  
-│  │  ├─Middleware 中间件目录  
-│  │  └─Model 数据模型  
-│  │  └─... 其他  
-│  ├─Xxx Xxx子模块目录  
-│  │  ├─ExampleHandle.go Example操作  
-│  │  ├─ExampleModel.go Example数据模型及模板函数  
-│  │  └─... Xxx的子模块目录  
-│  └─... 其他子模块目录  
-├─SystemView 系统模块前端目录 (url: /sys)  
-│  ├─Xxx Xxx子模块目录 (url: /sys/xxx)  
-│  │  ├─example.tpl ExampleHandle对应的模板文件  
-│  │  ├─example2.html 无需绑定操作的静态html文件  
-│  │  ├─xxx.css css文件(可有多个)  
-│  │  ├─xxx.js js文件(可有多个)  
-│  │  └─... Xxx的子模块目录  
-├─BusinessAPI 业务模块后端目录  
-│  ├─BusRouter.go 业务模块路由文件  
-│  ├─BusCommon Business公共目录  
-│  │  ├─Middleware 中间件目录  
-│  │  └─Model 数据模型  
-│  │  └─... 其他  
-│  ├─Xxx Xxx子模块目录  
-│  │  ├─ExampleHandle.go Example操作  
-│  │  ├─ExampleModel.go Example数据模型及模板函数  
-│  │  └─... Xxx的子模块目录  
-│  └─... 其他子模块目录  
-├─BusinessView 业务模块前端目录 (url: /bus)  
-│  ├─Xxx Xxx子模块目录 (url: /bus/xxx)  
-│  │  ├─example.tpl ExampleHandle对应的模板文件    
-│  │  ├─example2.html 无需绑定操作的静态html文件  
-│  │  ├─xxx.css css文件(可有多个)  
-│  │  ├─xxx.js js文件(可有多个)  
-│  │  └─... Xxx的子模块目录  
-├─Uploads 默认上传下载目录  
-├─Logger 运行日志输出目录  
-└─Main.go 应用入口文件 
 
 ##系统文档
 - [综述](doc/Introduction.md)
