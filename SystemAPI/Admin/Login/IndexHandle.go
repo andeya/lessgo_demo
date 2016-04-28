@@ -24,20 +24,24 @@ var IndexHandle = DescHandler{
 		},
 	},
 	Handler: func(ctx Context) error {
+		// 测试读取cookie
+		id, err := ctx.Request().Cookie(AppConfig.Session.CookieName)
+		ctx.Logger().Info("cookie中的%v: %#v (%v)", AppConfig.Session.CookieName, id, err)
+
+		// 测试session
 		sess, err := ctx.SessionStart()
 		if err != nil {
 			ctx.Logger().Error("%v", err)
 		} else {
-			err = sess.Set("user", ctx.Param("user"))
+			ctx.Logger().Info("session中记录的上次输入: %#v", sess.Get("info"))
+
+			err = sess.Set("info", map[string]interface{}{
+				"user":     ctx.Param("user"),
+				"password": ctx.Param("password"),
+			})
 			if err != nil {
-				ctx.Logger().Error("Set session [user] failed: %v", err)
+				ctx.Logger().Error("Set session [info] failed: %v", err)
 			}
-			err = sess.Set("password", ctx.Param("password"))
-			if err != nil {
-				ctx.Logger().Error("Set session [user] failed: %v", err)
-			}
-			ctx.Logger().Info("session user: %v", sess.Get("user"))
-			ctx.Logger().Info("session password: %v", sess.Get("password"))
 		}
 
 		return ctx.Render(200,
