@@ -1,9 +1,9 @@
 package Login
 
 import (
-	"strings"
+    "strings"
 )
 
 func repeatfunc(s string, count int) string {
-	return strings.Repeat(s, count)
+    return strings.Repeat(s, count)
 }

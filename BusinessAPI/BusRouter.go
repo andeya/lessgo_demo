@@ -4,12 +4,13 @@ import (
 	"github.com/lessgo/lessgo"
 
 	"github.com/lessgo/demo/BusinessAPI/Home"
+	"github.com/lessgo/demo/Common/Middleware"
 )
 
 func init() {
-	lessgo.RootRouter(
-		lessgo.SubRouter("/home", "前台",
-			lessgo.Get("index", "首页", Home.IndexHandle, "显示Header"),
-		).Use("打印一些东西"),
+	lessgo.Root(
+		lessgo.Branch("/home", "前台",
+			lessgo.Leaf("/index", Home.IndexHandle, Middleware.ShowHeaderWare),
+		).Use(Middleware.PrintWare),
 	)
 }

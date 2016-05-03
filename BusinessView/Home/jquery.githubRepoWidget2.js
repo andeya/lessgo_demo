@@ -33,15 +33,15 @@ $(function() {
                 }
 
                 var $widget = $(' \
-					<div class="github-box repo">  \
-					    <div class="github-box-title"> \
-					        <div class="github-stats"> \
-					        Star<a class="watchers" title="Star" href="' + repo.url.replace('api.', '').replace('repos/', '') + '/stargazers" target="_blank">' + repo.stargazers_count + '</a> \
-					        Fork<a class="forks" title="Forks" href="' + repo.url.replace('api.', '').replace('repos/', '') + '/network" target="_blank">' + repo.forks + '</a> \
-					        </div> \
-					    </div> \
-					</div> \
-				');
+                    <div class="github-box repo">  \
+                        <div class="github-box-title"> \
+                            <div class="github-stats"> \
+                            Star<a class="watchers" title="Star" href="' + repo.url.replace('api.', '').replace('repos/', '') + '/stargazers" target="_blank">' + repo.stargazers_count + '</a> \
+                            Fork<a class="forks" title="Forks" href="' + repo.url.replace('api.', '').replace('repos/', '') + '/network" target="_blank">' + repo.forks + '</a> \
+                            </div> \
+                        </div> \
+                    </div> \
+                ');
 
                 $widget.appendTo($container);
             }
