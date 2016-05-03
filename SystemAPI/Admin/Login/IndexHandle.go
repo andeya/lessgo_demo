@@ -5,9 +5,8 @@ import (
 )
 
 var IndexHandle = (&ApiHandler{
-	Desc:     "后台管理登录操作",
-	Methods:  []string{"GET", "POST"},
-	Produces: []string{"application/html"},
+	Desc:    "后台管理登录操作",
+	Methods: []string{"GET", "OPTIONS"},
 	Params: []Param{
 		{
 			Name:     "user",

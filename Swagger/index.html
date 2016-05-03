@@ -36,6 +36,7 @@
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
+        // url = "http://petstore.swagger.io/v2/swagger.json";
         url = "http://127.0.0.1:8080/swagger.json";
       }
 
@@ -50,7 +51,7 @@
       window.swaggerUi = new SwaggerUi({
         url: url,
         dom_id: "swagger-ui-container",
-        supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
+        supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch', 'options'],
         onComplete: function(swaggerApi, swaggerUi){
           if(typeof initOAuth == "function") {
             initOAuth({
