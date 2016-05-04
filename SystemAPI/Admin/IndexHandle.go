@@ -6,7 +6,7 @@ import (
 	"github.com/lessgo/lessgo"
 )
 
-var IndexHandle = (&lessgo.ApiHandler{
+var IndexHandle = lessgo.RegHandler(lessgo.ApiHandler{
 	Desc:    "后台首页",
 	Methods: []string{},
 	Handler: func(ctx lessgo.Context) error {
@@ -16,4 +16,4 @@ var IndexHandle = (&lessgo.ApiHandler{
 		time.Sleep(1e9)
 		return ctx.JSON(200, "这里是后台首页")
 	},
-}).Init()
+})

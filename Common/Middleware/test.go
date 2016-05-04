@@ -7,7 +7,7 @@ import (
 	"github.com/lessgo/lessgo/logs"
 )
 
-var PrintWare = (&lessgo.ApiMiddleware{
+var PrintWare = lessgo.ApiMiddleware{
 	Name:          "打印测试",
 	Desc:          "打印测试",
 	DefaultConfig: nil,
@@ -17,9 +17,9 @@ var PrintWare = (&lessgo.ApiMiddleware{
 			return nil
 		})
 	},
-}).Init()
+}.Reg()
 
-var ShowHeaderWare = (&lessgo.ApiMiddleware{
+var ShowHeaderWare = lessgo.RegMiddleware(lessgo.ApiMiddleware{
 	Name:          "显示Header",
 	Desc:          "显示Header测试",
 	DefaultConfig: nil,
@@ -29,9 +29,9 @@ var ShowHeaderWare = (&lessgo.ApiMiddleware{
 			return nil
 		})
 	},
-}).Init()
+})
 
-var ErrorTestWare = (&lessgo.ApiMiddleware{
+var ErrorTestWare = lessgo.ApiMiddleware{
 	Name:          "故意报错",
 	Desc:          "故意报错测试",
 	DefaultConfig: nil,
@@ -41,4 +41,4 @@ var ErrorTestWare = (&lessgo.ApiMiddleware{
 			return errors.New("中间件故意报错 error")
 		})
 	},
-}).Init()
+}.Reg()

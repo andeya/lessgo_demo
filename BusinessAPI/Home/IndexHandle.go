@@ -4,7 +4,7 @@ import (
 	"github.com/lessgo/lessgo"
 )
 
-var IndexHandle = (&lessgo.ApiHandler{
+var IndexHandle = lessgo.ApiHandler{
 	Desc:    "首页",
 	Methods: []string{"GET"},
 	Handler: func(ctx lessgo.Context) error {
@@ -17,4 +17,4 @@ var IndexHandle = (&lessgo.ApiHandler{
 				"content": "Welcome To Lessgo",
 			})
 	},
-}).Init()
+}.Reg()

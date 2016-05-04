@@ -4,7 +4,7 @@ import (
 	. "github.com/lessgo/lessgo"
 )
 
-var IndexHandle = (&ApiHandler{
+var IndexHandle = ApiHandler{
 	Desc:    "后台管理登录操作",
 	Methods: []string{"GET", "OPTIONS"},
 	Params: []Param{
@@ -52,4 +52,4 @@ var IndexHandle = (&ApiHandler{
 				"repeatfunc": repeatfunc,
 			})
 	},
-}).Init()
+}.Reg()
