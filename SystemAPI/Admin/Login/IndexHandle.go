@@ -29,7 +29,7 @@ var IndexHandle = ApiHandler{
 		ctx.Logger().Info("cookie中的%v: %#v (%v)", AppConfig.Session.CookieName, id, err)
 
 		// 测试session
-		sess, err := ctx.SessionStart()
+		sess, err := ctx.Session()
 		if err != nil {
 			ctx.Logger().Error("%v", err)
 		} else {
