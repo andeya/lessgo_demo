@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/lessgo/lessgo"
-	// . "github.com/lessgo/lessgo/engine/standard"
-	. "github.com/lessgo/lessgo/engine/fasthttp"
+	. "github.com/lessgo/lessgo/engine/standard"
+	// . "github.com/lessgo/lessgo/engine/fasthttp"
 	"github.com/lessgo/lessgoext/swagger"
 
 	_ "github.com/lessgo/demo/BusinessAPI"

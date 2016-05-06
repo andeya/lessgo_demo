@@ -7,6 +7,7 @@ import (
 var IndexHandle = lessgo.ApiHandler{
 	Desc:    "首页",
 	Methods: []string{"GET"},
+	Params:  []lessgo.Param{},
 	Handler: func(ctx lessgo.Context) error {
 		return ctx.Render(
 			200,
