@@ -1,0 +1,95 @@
+2016/05/11 22:53:20 [initialize.go:165][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/11 22:53:20 [Main.go:13] Swagger API doc has been enabled, please access "/apidoc/index.html".
+
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: css\print.css
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: css\reset.css
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: css\screen.css
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: css\style.css
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: css\typography.css
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: fonts\DroidSans-Bold.ttf
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: fonts\DroidSans.ttf
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\collapse.gif
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\expand.gif
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\explorer_icons.png
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\favicon-16x16.png
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\favicon-32x32.png
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\favicon.ico
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\logo_small.png
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\pet_store_api.png
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\throbber.gif
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: images\wordnik_api.png
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: index.html
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\en.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\es.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\fr.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\geo.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\it.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\ja.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\pl.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\pt.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\ru.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\tr.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\translator.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lang\zh-cn.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\backbone-min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\handlebars-2.0.0.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\highlight.9.1.0.pack.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\highlight.9.1.0.pack_extended.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\jquery-1.8.0.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\jquery.ba-bbq.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\jquery.slideto.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\jquery.wiggle.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\js-yaml.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\jsoneditor.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\lodash.min.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\marked.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: lib\swagger-oauth.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: o2c.html
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: swagger-ui.js
+2016/05/11 22:53:20 [copyfiles.go:29][I] CP: swagger-ui.min.js
+2016/05/11 22:53:20 [lessgo.go:131][W] The lessgo database can not be used, now only use source code routing.
+
+2016/05/11 22:53:20 [group.go:89] | WEBSOCKET | /websocket                     | github.com/lessgo/demo/BusinessAPI/Home.glob.func2
+2016/05/11 22:53:20 [app.go:485] | GET      | /home                          | github.com/lessgo/demo/BusinessAPI/Home.glob.func1
+2016/05/11 22:53:20 [app.go:485] | GET      | /home/index                    | github.com/lessgo/demo/BusinessAPI/Home.glob.func1
+2016/05/11 22:53:20 [app.go:485] | CONNECT  | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | DELETE   | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | GET      | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | HEAD     | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | OPTIONS  | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | PATCH    | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | POST     | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | PUT      | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | TRACE    | /admin                         | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | CONNECT  | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | DELETE   | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | GET      | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | HEAD     | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | OPTIONS  | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | PATCH    | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | POST     | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | PUT      | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | TRACE    | /admin/index                   | github.com/lessgo/demo/SystemAPI/Admin.glob.func1
+2016/05/11 22:53:20 [app.go:485] | GET      | /admin/login/:user/:password   | github.com/lessgo/demo/SystemAPI/Admin/Login.glob.func1
+2016/05/11 22:53:20 [app.go:485] | OPTIONS  | /admin/login/:user/:password   | github.com/lessgo/demo/SystemAPI/Admin/Login.glob.func1
+2016/05/11 22:53:20 [app.go:485] | GET      | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/11 22:53:20 [app.go:485] | GET      | /apidoc*                       | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/11 22:53:20 [initialize.go:149] | GET      | /uploads*                      | Uploads
+2016/05/11 22:53:20 [initialize.go:150] | GET      | /static*                       | Static
+2016/05/11 22:53:20 [initialize.go:151] | GET      | /bus*                          | BusinessView
+2016/05/11 22:53:20 [initialize.go:152] | GET      | /sys*                          | SystemView
+2016/05/11 22:53:20 [initialize.go:154] | GET      | /favicon.ico                   | Static/Img/favicon.ico
+2016/05/11 22:53:20 [Main.go:15] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/11 22:53:29 [app.go:684][I] 测试中间件-打印一些东西：1234567890
+2016/05/11 22:53:29 [app.go:684][I] param:[](len=0),[ ](len=2)
+2016/05/11 22:53:29 [test.go:26][I] 测试中间件-显示Header：map[Connection:[keep-alive] Cache-Control:[max-age=0] Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8]]
+2016/05/11 22:53:29 [apimiddleware.go:280][D] ::1 | GET | /home | [32m200[0m | 12.0007ms | 26355
+2016/05/11 22:53:29 [apimiddleware.go:280][D] ::1 | GET | /bus/home/index.css | [32m200[0m | 0 | 1043
+2016/05/11 22:53:29 [apimiddleware.go:280][D] ::1 | GET | /bus/home/websocket.js | [32m200[0m | 0 | 677
+2016/05/11 22:53:29 [apimiddleware.go:280][D] ::1 | GET | /bus/home/jquery.githubrepowidget2.js | [32m200[0m | 0 | 4200
+2016/05/11 22:53:29 [apimiddleware.go:280][D] ::1 | GET | /static/js/jquery.js | [32m200[0m | 16.001ms | 95991
+2016/05/11 22:53:29 [test.go:26][I] 测试中间件-显示Header：map[Connection:[Upgrade] Cache-Control:[no-cache] Sec-Websocket-Extensions:[permessage-deflate; client_max_window_bits] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8] Sec-Websocket-Key:[0ynbBKMdnVRnBC15uvabDg==] Pragma:[no-cache] Upgrade:[websocket] Origin:[http://localhost:8080] Sec-Websocket-Version:[13]]
+2016/05/11 22:53:29 [apimiddleware.go:280][D] ::1 | GET | /static/js/jquery.min.map | [32m200[0m | 8.0004ms | 142012
+2016/05/11 22:53:30 [app.go:461][I] req: map[testsend:2016-05-11T14:53:30.312Z]
+2016/05/11 22:53:30 [apimiddleware.go:280][D] ::1 | GET | /favicon.ico | [32m200[0m | 1ms | 9662

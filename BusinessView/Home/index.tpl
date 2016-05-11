@@ -8,6 +8,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="/bus/home/index.css" rel="stylesheet" type="text/css" />
     <script src="/static/js/jquery.js"></script>
+    <script src="/bus/home/websocket.js"></script>
 </head>
 
 <body>
