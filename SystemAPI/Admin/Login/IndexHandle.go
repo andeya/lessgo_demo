@@ -29,20 +29,12 @@ var IndexHandle = ApiHandler{
 		ctx.Logger().Info("cookie中的%v: %#v (%v)", AppConfig.Session.CookieName, id, err)
 
 		// 测试session
-		sess, err := ctx.Session()
-		if err != nil {
-			ctx.Logger().Error("%v", err)
-		} else {
-			ctx.Logger().Info("session中记录的上次输入: %#v", sess.Get("info"))
+		ctx.Logger().Info("从session读取上次请求的输入: %#v", ctx.GetSession("info"))
 
-			err = sess.Set("info", map[string]interface{}{
-				"user":     ctx.Param("user"),
-				"password": ctx.Param("password"),
-			})
-			if err != nil {
-				ctx.Logger().Error("Set session [info] failed: %v", err)
-			}
-		}
+		ctx.SetSession("info", map[string]interface{}{
+			"user":     ctx.Param("user"),
+			"password": ctx.Param("password"),
+		})
 
 		return ctx.Render(200,
 			"SystemView/Admin/Login/index.tpl",
@@ -50,6 +42,7 @@ var IndexHandle = ApiHandler{
 				"name":       ctx.Param("user"),
 				"password":   ctx.Param("password"),
 				"repeatfunc": repeatfunc,
-			})
+			},
+		)
 	},
 }.Reg()
