@@ -25,8 +25,8 @@ var IndexHandle = ApiHandler{
 	},
 	Handler: func(ctx Context) error {
 		// 测试读取cookie
-		id, err := ctx.Request().Cookie(AppConfig.Session.CookieName)
-		ctx.Logger().Info("cookie中的%v: %#v (%v)", AppConfig.Session.CookieName, id, err)
+		id, err := ctx.Request().Cookie(AppConfig.Session.SessionName)
+		ctx.Logger().Info("cookie中的%v: %#v (%v)", AppConfig.Session.SessionName, id, err)
 
 		// 测试session
 		ctx.Logger().Info("从session读取上次请求的输入: %#v", ctx.GetSession("info"))
