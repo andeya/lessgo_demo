@@ -8,20 +8,8 @@ var IndexHandle = ApiHandler{
 	Desc:   "后台管理登录操作",
 	Method: "GET",
 	Params: []Param{
-		{
-			Name:     "user",
-			In:       "path",
-			Required: true,
-			Format:   "henry",
-			Desc:     "用户名",
-		},
-		{
-			Name:     "password",
-			In:       "path",
-			Required: true,
-			Format:   "12345678",
-			Desc:     "密码",
-		},
+		{"user", "path", true, "henry", "用户名"},
+		{"password", "path", true, "12345678", "密码"},
 	},
 	Handler: func(ctx Context) error {
 		// 测试读取cookie

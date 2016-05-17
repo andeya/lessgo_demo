@@ -14,6 +14,6 @@ var IndexHandle = lessgo.RegHandler(lessgo.ApiHandler{
 		ctx.Logger().Info("获取参数A = %v", ctx.QueryParam("A"))
 		ctx.Logger().Info("获取参数a = %v", ctx.QueryParam("a"))
 		time.Sleep(1e9)
-		return ctx.JSON(200, "这里是后台首页")
+		return ctx.JSONMsg(200, 1, map[string]string{"c": "这里是后台首页"})
 	},
 })
