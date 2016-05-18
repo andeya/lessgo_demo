@@ -1,0 +1,35 @@
+2016/05/18 23:01:17 [initialize.go:141][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/18 23:01:17 [lessgo.go:72] Session is disable.
+2016/05/18 23:01:17 [main.go:13] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/05/18 23:01:17 [asm_amd64.s:472][W] Can only use source code routing: runtime error: invalid memory address or nil pointer dereference.
+2016/05/18 23:01:17 [app.go:484] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/18 23:01:17 [app.go:484] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/05/18 23:01:17 [app.go:484] | GET     | /apidoc*                       | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/18 23:01:17 [app.go:484] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/18 23:01:17 [app.go:484] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/18 23:01:17 [app.go:484] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/18 23:01:17 [group.go:89] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/05/18 23:01:17 [initialize.go:125] | GET     | /uploads*                      | uploads
+2016/05/18 23:01:17 [initialize.go:126] | GET     | /static*                       | static
+2016/05/18 23:01:17 [initialize.go:127] | GET     | /biz*                          | bizview
+2016/05/18 23:01:17 [initialize.go:128] | GET     | /sys*                          | sysview
+2016/05/18 23:01:17 [initialize.go:130] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/05/18 23:01:17 [main.go:17] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)

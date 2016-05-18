@@ -1,4 +1,4 @@
-package Middleware
+package middleware
 
 import (
     "github.com/lessgo/lessgo"
@@ -18,13 +18,12 @@ var PrintWare = lessgo.ApiMiddleware{
     },
 }.Reg()
 
-var ShowHeaderWare = lessgo.RegMiddleware(lessgo.ApiMiddleware{
+var ShowHeaderWare = lessgo.ApiMiddleware{
     Name:          "显示Header",
     Desc:          "显示Header测试",
     DefaultConfig: nil,
-    Middleware: func(ctx lessgo.Context) error {
-        logs.Info("测试中间件-显示Header：%v", ctx.Request().Header)
+    Middleware: func(c lessgo.Context) error {
+        logs.Info("测试中间件-显示Header：%v", c.Request().Header)
         return nil
     },
-})
-
+}.Reg()
