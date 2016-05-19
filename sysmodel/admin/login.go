@@ -1,9 +1,13 @@
 package admin
 
 import (
-    "strings"
+	"strings"
 )
 
-func Repeatfunc(s string, count int) string {
-    return strings.Repeat(s, count)
+type login struct{}
+
+var Login = login{}
+
+func (_ login) Repeatfunc(s string, count int) string {
+	return strings.Repeat(s, count)
 }
