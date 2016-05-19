@@ -6,7 +6,7 @@ import (
     "github.com/lessgo/lessgo"
 )
 
-var WebSocketHandle = lessgo.ApiHandler{
+var WebSocket = lessgo.ApiHandler{
     Desc:   "websocket",
     Method: "WS",
     Params: []lessgo.Param{},

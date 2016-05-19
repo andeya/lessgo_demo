@@ -10,9 +10,9 @@ import (
 func init() {
     lessgo.Root(
         lessgo.Branch("/admin", "后台管理",
-            lessgo.Leaf("/index", admin.IndexHandle),
+            lessgo.Leaf("/index", admin.Index),
             lessgo.Branch("/login", "后台登陆",
-                lessgo.Leaf("/", login.IndexHandle),
+                lessgo.Leaf("/", login.Index),
             ),
         ),
     )

@@ -4,7 +4,7 @@ import (
     "github.com/lessgo/lessgo"
 )
 
-var IndexHandle = lessgo.ApiHandler{
+var Index = lessgo.ApiHandler{
     Desc:   "首页",
     Method: "GET",
     Handler: func(c lessgo.Context) error {
