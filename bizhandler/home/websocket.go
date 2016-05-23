@@ -16,7 +16,7 @@ var WebSocket = lessgo.ApiHandler{
             if err := c.WsRecvJSON(&req); err != nil {
                 return err
             }
-            c.Logger().Info("req: %v", req)
+            c.Log().Info("req: %v", req)
             if _, err := c.WsSendJSON(map[string]string{"back": time.Now().String()}); err != nil {
                 return err
             }

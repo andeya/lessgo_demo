@@ -15,11 +15,11 @@ var Index = ApiHandler{
     },
     Handler: func(c Context) error {
         // 测试读取cookie
-        id, err := c.Request().Cookie(AppConfig.Session.SessionName)
-        c.Logger().Info("cookie中的%v: %#v (%v)", AppConfig.Session.SessionName, id, err)
+        id, err := c.Request().Cookie(Config.Session.SessionName)
+        c.Log().Info("cookie中的%v: %#v (%v)", Config.Session.SessionName, id, err)
 
         // 测试session
-        c.Logger().Info("从session读取上次请求的输入: %#v", c.GetSession("info"))
+        c.Log().Info("从session读取上次请求的输入: %#v", c.GetSession("info"))
 
         c.SetSession("info", map[string]interface{}{
             "user":     c.Param("user"),
