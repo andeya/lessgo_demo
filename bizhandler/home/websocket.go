@@ -10,7 +10,7 @@ var WebSocket = lessgo.ApiHandler{
     Desc:   "websocket",
     Method: "WS",
     Params: []lessgo.Param{},
-    Handler: func(c lessgo.Context) error {
+    Handler: func(c *lessgo.Context) error {
         for {
             var req interface{}
             if err := c.WsRecvJSON(&req); err != nil {

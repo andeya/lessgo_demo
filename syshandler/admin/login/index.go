@@ -13,7 +13,7 @@ var Index = ApiHandler{
         {"user", "path", true, "henry", "用户名"},
         {"password", "path", true, "12345678", "密码"},
     },
-    Handler: func(c Context) error {
+    Handler: func(c *Context) error {
         // 测试读取cookie
         id, err := c.Request().Cookie(Config.Session.SessionName)
         c.Log().Info("cookie中的%v: %#v (%v)", Config.Session.SessionName, id, err)

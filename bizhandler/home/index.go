@@ -7,7 +7,7 @@ import (
 var Index = lessgo.ApiHandler{
     Desc:   "首页",
     Method: "GET",
-    Handler: func(c lessgo.Context) error {
+    Handler: func(c *lessgo.Context) error {
         return c.Render(
             200,
             "bizview/home/index.tpl",

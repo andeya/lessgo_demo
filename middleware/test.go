@@ -9,7 +9,7 @@ var Print = lessgo.ApiMiddleware{
     Desc:   "打印测试",
     Config: nil,
     Middleware: func(confObject interface{}) lessgo.MiddlewareFunc {
-        return lessgo.WrapMiddleware(func(c lessgo.Context) error {
+        return lessgo.WrapMiddleware(func(c *lessgo.Context) error {
             c.Log().Info("测试中间件-打印一些东西：1234567890")
             c.Log().Info("param:%v(len=%v),%v(len=%v)", c.ParamNames(), len(c.ParamNames()), c.ParamValues(), len(c.ParamValues()))
             return nil
@@ -21,7 +21,7 @@ var ShowHeader = lessgo.ApiMiddleware{
     Name:   "显示Header",
     Desc:   "显示Header测试",
     Config: nil,
-    Middleware: func(c lessgo.Context) error {
+    Middleware: func(c *lessgo.Context) error {
         c.Log().Info("测试中间件-显示Header：%v", c.Request().Header)
         return nil
     },
