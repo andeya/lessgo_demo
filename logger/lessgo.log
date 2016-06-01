@@ -170,3 +170,1565 @@
 2016/05/26 23:29:35 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
 2016/05/26 23:29:35 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
 2016/05/26 23:29:35 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/27 11:09:22 [lessgo.go:66] Session is disable.
+2016/05/27 11:09:22 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:09:24 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:09:26 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/05/27 11:09:26 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:09:26 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/05/27 11:09:26 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/27 11:09:26 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:09:26 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:09:26 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/27 11:09:26 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/05/27 11:09:26 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/05/27 11:09:26 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/05/27 11:09:26 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/05/27 11:09:26 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/05/27 11:09:26 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/05/27 11:09:26 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/27 11:10:01 [lessgo.go:66] Session is disable.
+2016/05/27 11:10:01 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:10:03 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:10:05 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/05/27 11:10:05 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/05/27 11:10:05 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/27 11:10:05 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:10:05 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:10:05 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/27 11:10:05 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/05/27 11:10:05 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:10:05 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/05/27 11:10:05 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/05/27 11:10:05 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/05/27 11:10:05 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/05/27 11:10:05 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/05/27 11:10:05 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/27 11:10:11 [lessgo.go:66] Session is disable.
+2016/05/27 11:10:11 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:10:13 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:24:56 [lessgo.go:66] Session is disable.
+2016/05/27 11:24:56 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:24:58 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:25:00 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/05/27 11:25:00 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/05/27 11:25:00 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/27 11:25:00 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:25:00 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:25:00 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/27 11:25:00 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/05/27 11:25:00 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:00 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/05/27 11:25:00 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/05/27 11:25:00 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/05/27 11:25:00 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/05/27 11:25:00 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/05/27 11:25:00 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 0 | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 1ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 58.0033ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 63.0036ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 61.0035ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 57.0033ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 3.0002ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 66.0038ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 4.0002ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 67.0038ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 12.0007ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 14.0008ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 16.0009ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 5.0002ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 10.0005ms | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 0 | 0
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /swagger.json | [32m200[0m | 2.0001ms | 14251
+2016/05/27 11:25:03 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 23.0013ms | 645
+2016/05/27 11:25:24 [lessgo.go:66] Session is disable.
+2016/05/27 11:25:24 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:25:26 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/27 11:25:28 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/05/27 11:25:28 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/27 11:25:28 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/05/27 11:25:28 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/27 11:25:28 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:25:28 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/27 11:25:28 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/27 11:25:28 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/05/27 11:25:28 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/05/27 11:25:28 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/05/27 11:25:28 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/05/27 11:25:28 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/05/27 11:25:28 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/05/27 11:25:28 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 1ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 1ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 2.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 1ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 1ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 2.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 2.0001ms | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /swagger.json | [32m200[0m | 2.0001ms | 14269
+2016/05/27 11:25:29 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 0 | 645
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 1ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 3.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 3.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 4.0002ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 3.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 1ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /swagger.json | [32m200[0m | 1.0001ms | 14269
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 1.0001ms | 645
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 2.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 1.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 2.0001ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 1ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 5.0003ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 5.0003ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 0 | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 1ms | 0
+2016/05/27 11:25:30 [apimiddleware.go:322][D] ::1 | GET | /swagger.json | [32m200[0m | 1.0001ms | 14269
+2016/05/30 17:41:43 [lessgo.go:66] Session is disable.
+2016/05/30 17:41:43 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/30 17:41:45 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/05/30 17:41:47 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/05/30 17:41:47 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/05/30 17:41:47 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/05/30 17:41:47 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/30 17:41:47 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/05/30 17:41:47 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/05/30 17:41:47 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/05/30 17:41:47 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/05/30 17:41:47 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/05/30 17:41:47 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/05/30 17:41:47 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/05/30 17:41:47 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/05/30 17:41:47 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/05/30 17:41:47 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/05/30 17:41:47 [lessgo.go:535][F] listen tcp 0.0.0.0:8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016/06/01 13:32:56 [lessgo.go:66] Session is disable.
+2016/06/01 13:32:57 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:32:59 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:33:01 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 13:33:01 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:33:01 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 13:33:01 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 13:33:01 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:33:01 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:33:01 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 13:33:01 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 13:33:01 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 13:33:01 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 13:33:01 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 13:33:01 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 13:33:01 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 13:33:01 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 13:33:09 [lessgo.go:396][I] 测试中间件-打印一些东西：1234567890
+2016/06/01 13:33:09 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:33:09 [lessgo.go:396][I] 测试中间件-打印一些东西：asdfghjk
+2016/06/01 13:33:09 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:33:09 [lessgo.go:396][I] 测试中间件-显示Header：map[Connection:[keep-alive] Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63]]
+2016/06/01 13:33:09 [apimiddleware.go:322][D] ::1 | GET | /home | [32m200[0m | 17.001ms | 26355
+2016/06/01 13:33:09 [apimiddleware.go:322][D] ::1 | GET | /static/js/jquery.js | [36m304[0m | 0 | 0
+2016/06/01 13:33:09 [apimiddleware.go:322][D] ::1 | GET | /biz/home/index.css | [32m200[0m | 27.0016ms | 1043
+2016/06/01 13:33:09 [apimiddleware.go:322][D] ::1 | GET | /biz/home/websocket.js | [32m200[0m | 17.001ms | 677
+2016/06/01 13:33:09 [apimiddleware.go:322][D] ::1 | GET | /biz/home/jquery.githubRepoWidget2.js | [32m200[0m | 48.0027ms | 4200
+2016/06/01 13:33:09 [lessgo.go:396][I] 测试中间件-显示Header：map[Pragma:[no-cache] Origin:[http://localhost:8080] Sec-Websocket-Version:[13] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Connection:[Upgrade] Cache-Control:[no-cache] Upgrade:[websocket] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Sec-Websocket-Key:[BIExW8AZQQAsmrFCUaJYtw==] Sec-Websocket-Extensions:[permessage-deflate; client_max_window_bits]]
+2016/06/01 13:33:11 [app.go:479][I] req: map[testsend:2016-06-01T05:33:11.075Z]
+2016/06/01 13:39:48 [lessgo.go:66] Session is disable.
+2016/06/01 13:39:48 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:39:50 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:39:52 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 13:39:52 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:39:52 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 13:39:52 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 13:39:52 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:39:52 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:39:52 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 13:39:52 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 13:39:52 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 13:39:52 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 13:39:52 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 13:39:52 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 13:39:52 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 13:39:52 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 13:39:55 [lessgo.go:396][I] 测试中间件-打印一些东西：1234567890
+2016/06/01 13:39:55 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:39:55 [lessgo.go:396][I] 测试中间件-打印一些东西：asdfghjk
+2016/06/01 13:39:55 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:39:55 [lessgo.go:396][I] 测试中间件-显示Header：map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Connection:[keep-alive] Cache-Control:[max-age=0] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8]]
+2016/06/01 13:39:55 [lessgo.go:396][I] 测试中间件-显示Header：map[Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Connection:[keep-alive] Cache-Control:[max-age=0] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8]]
+2016/06/01 13:39:55 [apimiddleware.go:322][D] ::1 | GET | /home | [32m200[0m | 4.0003ms | 26355
+2016/06/01 13:39:55 [apimiddleware.go:322][D] ::1 | GET | /biz/home/index.css | [36m304[0m | 0 | 0
+2016/06/01 13:39:55 [apimiddleware.go:322][D] ::1 | GET | /static/js/jquery.js | [36m304[0m | 1ms | 0
+2016/06/01 13:39:55 [apimiddleware.go:322][D] ::1 | GET | /biz/home/jquery.githubRepoWidget2.js | [36m304[0m | 12.0007ms | 0
+2016/06/01 13:39:55 [apimiddleware.go:322][D] ::1 | GET | /biz/home/websocket.js | [36m304[0m | 13.0007ms | 0
+2016/06/01 13:39:55 [lessgo.go:396][I] 测试中间件-显示Header：map[User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Sec-Websocket-Key:[PHUzXgAK7D0RCmUkltz8Dg==] Sec-Websocket-Extensions:[permessage-deflate; client_max_window_bits] Pragma:[no-cache] Upgrade:[websocket] Origin:[http://localhost:8080] Sec-Websocket-Version:[13] Connection:[Upgrade] Cache-Control:[no-cache] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63]]
+2016/06/01 13:39:56 [app.go:479][I] req: map[testsend:2016-06-01T05:39:56.595Z]
+2016/06/01 13:39:56 [apimiddleware.go:322][D] ::1 | GET | /favicon.ico | [32m200[0m | 44.0026ms | 9662
+2016/06/01 13:40:33 [lessgo.go:66] Session is disable.
+2016/06/01 13:40:33 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:40:35 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:40:59 [lessgo.go:66] Session is disable.
+2016/06/01 13:40:59 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:41:01 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:41:03 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 13:41:03 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:03 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 13:41:03 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 13:41:03 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:41:03 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:41:03 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 13:41:03 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 13:41:03 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 13:41:03 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 13:41:03 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 13:41:03 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 13:41:03 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 13:41:03 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 13:41:03 [lessgo.go:535][F] listen tcp 0.0.0.0:8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016/06/01 13:41:18 [lessgo.go:66] Session is disable.
+2016/06/01 13:41:18 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:41:20 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:41:22 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 13:41:22 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 13:41:22 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 13:41:22 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:41:22 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:41:22 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 13:41:22 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 13:41:22 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:41:22 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 13:41:22 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 13:41:22 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 13:41:22 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 13:41:22 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 13:41:22 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 13:41:28 [lessgo.go:396][I] 测试中间件-打印一些东西：1234567890
+2016/06/01 13:41:28 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:41:28 [lessgo.go:396][I] 测试中间件-打印一些东西：asdfghjk
+2016/06/01 13:41:28 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:41:28 [lessgo.go:396][I] 测试中间件-显示Header：map[Cache-Control:[max-age=0] Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Connection:[keep-alive] Accept-Encoding:[gzip, deflate, sdch]]
+2016/06/01 13:41:28 [lessgo.go:396][I] 测试中间件-显示Header：map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Connection:[keep-alive] Cache-Control:[max-age=0] Accept-Encoding:[gzip, deflate, sdch]]
+2016/06/01 13:41:28 [apimiddleware.go:322][D] ::1 | GET | /home | [32m200[0m | 8.0005ms | 26355
+2016/06/01 13:41:28 [apimiddleware.go:322][D] ::1 | GET | /biz/home/index.css | [36m304[0m | 0 | 0
+2016/06/01 13:41:28 [apimiddleware.go:322][D] ::1 | GET | /biz/home/jquery.githubRepoWidget2.js | [36m304[0m | 1ms | 0
+2016/06/01 13:41:28 [apimiddleware.go:322][D] ::1 | GET | /biz/home/websocket.js | [36m304[0m | 1ms | 0
+2016/06/01 13:41:28 [apimiddleware.go:322][D] ::1 | GET | /static/js/jquery.js | [36m304[0m | 3.0001ms | 0
+2016/06/01 13:41:29 [app.go:479][I] req: map[testsend:2016-06-01T05:41:29.291Z]
+2016/06/01 13:41:29 [apimiddleware.go:322][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 13:49:59 [lessgo.go:66] Session is disable.
+2016/06/01 13:49:59 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:50:01 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 13:50:03 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 13:50:03 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 13:50:03 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 13:50:03 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 13:50:03 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:50:03 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 13:50:03 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 13:50:03 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 13:50:03 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 13:50:03 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 13:50:03 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 13:50:03 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 13:50:03 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 13:50:03 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 13:50:05 [lessgo.go:396][I] 测试中间件-打印一些东西：1234567890
+2016/06/01 13:50:05 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:50:05 [lessgo.go:396][I] 测试中间件-打印一些东西：asdfghjk
+2016/06/01 13:50:05 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 13:50:05 [lessgo.go:396][I] 测试中间件-显示Header：map[Connection:[keep-alive] Cache-Control:[max-age=0] Upgrade-Insecure-Requests:[1] Accept-Language:[zh-CN,zh;q=0.8] Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Encoding:[gzip, deflate, sdch] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63]]
+2016/06/01 13:50:05 [lessgo.go:396][I] 测试中间件-显示Header22222：map[User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Encoding:[gzip, deflate, sdch] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] Accept-Language:[zh-CN,zh;q=0.8] Connection:[keep-alive] Cache-Control:[max-age=0]]
+2016/06/01 13:50:05 [apimiddleware.go:324][D] ::1 | GET | /home | [32m200[0m | 4.0002ms | 26355
+2016/06/01 13:50:05 [apimiddleware.go:324][D] ::1 | GET | /biz/home/index.css | [36m304[0m | 0 | 0
+2016/06/01 13:50:05 [apimiddleware.go:324][D] ::1 | GET | /biz/home/jquery.githubRepoWidget2.js | [36m304[0m | 0 | 0
+2016/06/01 13:50:05 [apimiddleware.go:324][D] ::1 | GET | /biz/home/websocket.js | [36m304[0m | 1.0001ms | 0
+2016/06/01 13:50:05 [apimiddleware.go:324][D] ::1 | GET | /static/js/jquery.js | [36m304[0m | 1.0001ms | 0
+2016/06/01 13:50:06 [app.go:479][I] req: map[testsend:2016-06-01T05:50:06.203Z]
+2016/06/01 13:50:06 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 14:42:59 [lessgo.go:66] Session is disable.
+2016/06/01 14:42:59 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 14:43:01 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 14:43:03 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 14:43:03 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 14:43:03 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 14:43:03 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 14:43:03 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 14:43:03 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 14:43:03 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 14:43:03 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 14:43:03 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 14:43:03 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 14:43:03 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 14:43:03 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 14:43:03 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 14:43:03 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:17:49 [lessgo.go:66] Session is disable.
+2016/06/01 17:17:49 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:17:51 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:17:53 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 17:17:53 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:17:53 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 17:17:53 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 17:17:53 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:17:53 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:17:53 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 17:17:53 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 17:17:53 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 17:17:53 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 17:17:53 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 17:17:53 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 17:17:53 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 17:17:53 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 17:17:53 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 17:17:53 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:18:08 [lessgo.go:396][I] 测试中间件-打印一些东西：1234567890
+2016/06/01 17:18:08 [lessgo.go:396][I] param:[](len=0),[](len=0)
+2016/06/01 17:18:08 [lessgo.go:396][I] 测试中间件-显示Header：map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Connection:[keep-alive]]
+2016/06/01 17:18:08 [apimiddleware.go:324][D] ::1 | GET | /home | [32m200[0m | 3.0002ms | 26355
+2016/06/01 17:18:08 [lessgo.go:396][I] 测试中间件-显示Header：map[Sec-Websocket-Version:[13] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8] Cookie:[pholcusSession=d071a4e67aa0b146be502d4bbcc5ea63] Connection:[Upgrade] Upgrade:[websocket] Cache-Control:[no-cache] Origin:[http://localhost:8080] User-Agent:[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] Sec-Websocket-Key:[1tGCdqf9K7+UKEHJMQzoaQ==] Sec-Websocket-Extensions:[permessage-deflate; client_max_window_bits] Pragma:[no-cache]]
+2016/06/01 17:18:08 [app.go:479][I] req: map[testsend:2016-06-01T09:18:08.906Z]
+2016/06/01 17:18:15 [server.go:90][W] WebSocket: [::1]EOF
+2016/06/01 17:18:15 [apimiddleware.go:324][D] ::1 | GET | /websocket | [32m0[0m | 7.4334252s | 0
+2016/06/01 17:18:15 [apimiddleware.go:324][D] ::1 | GET | /upload | [32m200[0m | 0 | 143
+2016/06/01 17:19:00 [context.go:564][E] request Content-Type isn't multipart/form-data
+2016/06/01 17:19:00 [apimiddleware.go:324][D] ::1 | POST | /upload | [31m500[0m | 0 | 46
+2016/06/01 17:20:54 [lessgo.go:66] Session is disable.
+2016/06/01 17:20:54 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:20:56 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:20:58 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 17:20:58 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:20:58 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 17:20:58 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 17:20:58 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:20:58 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:20:58 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 17:20:58 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 17:20:58 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 17:20:58 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 17:20:58 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 17:20:58 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 17:20:58 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 17:20:58 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 17:20:58 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 17:20:58 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:21:07 [apimiddleware.go:324][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/06/01 17:21:07 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 17:21:17 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 11.0007ms | 0
+2016/06/01 17:22:02 [apimiddleware.go:324][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/06/01 17:22:03 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 6.0003ms | 0
+2016/06/01 17:35:11 [lessgo.go:66] Session is disable.
+2016/06/01 17:35:11 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:35:13 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:35:15 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 17:35:15 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:35:15 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 17:35:15 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 17:35:15 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:35:15 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:35:15 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 17:35:15 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 17:35:15 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 17:35:15 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 17:35:15 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 17:35:15 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 17:35:15 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 17:35:15 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 17:35:15 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 17:35:15 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:35:17 [apimiddleware.go:324][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/06/01 17:35:22 [context.go:566][E] invalid argument
+2016/06/01 17:35:22 [apimiddleware.go:324][D] ::1 | POST | /upload | [31m500[0m | 1ms | 16
+2016/06/01 17:40:10 [lessgo.go:66] Session is disable.
+2016/06/01 17:40:10 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:40:12 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:40:14 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 17:40:14 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:40:14 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 17:40:14 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 17:40:14 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:40:14 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:40:14 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 17:40:14 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 17:40:14 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 17:40:14 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 17:40:14 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 17:40:14 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 17:40:14 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 17:40:14 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 17:40:14 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 17:40:14 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:40:16 [upload.go:24][W] /a/687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg
+2016/06/01 17:40:16 [context.go:570][E] open uploads\a\687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg: The system cannot find the path specified.
+2016/06/01 17:40:16 [apimiddleware.go:324][D] ::1 | POST | /upload | [31m500[0m | 6.0003ms | 163
+2016/06/01 17:40:16 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 17:46:19 [lessgo.go:66] Session is disable.
+2016/06/01 17:46:19 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:46:21 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:46:23 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 17:46:23 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:46:23 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 17:46:23 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 17:46:23 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:46:23 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:46:23 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 17:46:23 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 17:46:23 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 17:46:23 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 17:46:23 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 17:46:23 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 17:46:23 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 17:46:23 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 17:46:23 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 17:46:23 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:46:28 [upload.go:24][W] \a\687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg
+2016/06/01 17:46:28 [context.go:576][E] open uploads\a\687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg: The system cannot find the path specified.
+2016/06/01 17:46:28 [apimiddleware.go:324][D] ::1 | POST | /upload | [31m500[0m | 11.0006ms | 163
+2016/06/01 17:46:28 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 17:58:26 [lessgo.go:66] Session is disable.
+2016/06/01 17:58:26 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:58:28 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 17:58:30 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 17:58:30 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 17:58:30 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 17:58:30 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 17:58:30 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:58:30 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 17:58:30 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 17:58:30 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 17:58:30 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 17:58:30 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 17:58:30 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 17:58:30 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 17:58:30 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 17:58:30 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 17:58:30 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 17:58:30 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 17:58:34 [upload.go:24][W] uploads\a\687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg
+2016/06/01 17:58:34 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 3.0002ms | 0
+2016/06/01 17:58:34 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 17:58:44 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 3.0001ms | 0
+2016/06/01 17:58:44 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1ms | 9662
+2016/06/01 18:30:32 [lessgo.go:66] Session is disable.
+2016/06/01 18:30:32 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:30:34 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:30:36 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 18:30:36 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:30:36 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 18:30:36 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 18:30:36 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:30:36 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:30:36 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 18:30:36 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 18:30:36 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 18:30:36 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 18:30:36 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 18:30:36 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 18:30:36 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 18:30:36 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 18:30:36 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 18:30:36 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 18:30:41 [upload.go:24][W] uploads\a\687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg(2)
+2016/06/01 18:30:41 [app.go:502][W] , 94537, <nil>
+2016/06/01 18:30:41 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 7.0004ms | 0
+2016/06/01 18:30:41 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 18:41:15 [lessgo.go:66] Session is disable.
+2016/06/01 18:41:15 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:41:17 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:41:19 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 18:41:19 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:41:19 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 18:41:19 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 18:41:19 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:41:19 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:41:19 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 18:41:19 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 18:41:19 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 18:41:19 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 18:41:19 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 18:41:19 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 18:41:19 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 18:41:19 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 18:41:19 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 18:41:19 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 18:41:22 [upload.go:24][W] uploads\a\687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067(2).jpg
+2016/06/01 18:41:22 [app.go:502][W] , 94537, <nil>
+2016/06/01 18:41:22 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 10.0006ms | 0
+2016/06/01 18:41:22 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 18:41:46 [apimiddleware.go:324][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/06/01 18:42:20 [upload.go:24][W] uploads\a\密码
+2016/06/01 18:42:20 [app.go:502][W] , 11, <nil>
+2016/06/01 18:42:20 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 3.0001ms | 0
+2016/06/01 18:42:32 [upload.go:24][W] uploads\a\密码(2)
+2016/06/01 18:42:32 [app.go:502][W] , 11, <nil>
+2016/06/01 18:42:32 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 1.0001ms | 0
+2016/06/01 18:42:32 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1ms | 9662
+2016/06/01 18:43:57 [lessgo.go:66] Session is disable.
+2016/06/01 18:43:57 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:43:59 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:44:01 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 18:44:01 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:44:01 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 18:44:01 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 18:44:01 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:44:01 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:44:01 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 18:44:01 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 18:44:01 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 18:44:01 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 18:44:01 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 18:44:01 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 18:44:01 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 18:44:01 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 18:44:01 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 18:44:01 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 18:44:08 [app.go:502][I] , 11, <nil>
+2016/06/01 18:44:08 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 3.0001ms | 0
+2016/06/01 18:44:08 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 18:44:18 [app.go:502][I] , 11, <nil>
+2016/06/01 18:44:18 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 1.0001ms | 0
+2016/06/01 18:44:18 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 18:46:02 [lessgo.go:66] Session is disable.
+2016/06/01 18:46:03 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:46:05 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 18:46:07 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 18:46:07 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 18:46:07 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 18:46:07 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 18:46:07 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:46:07 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 18:46:07 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 18:46:07 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 18:46:07 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 18:46:07 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 18:46:07 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 18:46:07 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 18:46:07 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 18:46:07 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 18:46:07 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 18:46:07 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 18:46:11 [app.go:502][I] uploads\a\密码, 11, <nil>
+2016/06/01 18:46:11 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 1ms | 0
+2016/06/01 18:46:12 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 18:46:51 [app.go:502][I] uploads\a\密码, 17, <nil>
+2016/06/01 18:46:51 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 2.0002ms | 0
+2016/06/01 18:46:51 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:06:19 [lessgo.go:66] Session is disable.
+2016/06/01 19:06:19 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:06:21 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:06:23 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:06:23 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:06:23 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:06:23 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:06:23 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:06:23 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:06:23 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:06:23 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:06:23 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:06:23 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:06:23 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:06:23 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:06:23 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:06:23 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:06:23 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:06:23 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:06:35 [app.go:502][I] uploads\a\密码, 17, <nil>
+2016/06/01 19:06:35 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 1.0001ms | 0
+2016/06/01 19:06:35 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1ms | 9662
+2016/06/01 19:06:47 [app.go:502][I] uploads\a\密码, 17, <nil>
+2016/06/01 19:06:47 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 1ms | 0
+2016/06/01 19:06:47 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:06:57 [app.go:502][I] uploads\a\密码, 17, <nil>
+2016/06/01 19:06:57 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 2.0001ms | 0
+2016/06/01 19:06:57 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 19:10:53 [lessgo.go:66] Session is disable.
+2016/06/01 19:10:53 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:10:55 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:10:57 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:10:57 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:10:57 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:10:57 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:10:57 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:10:57 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:10:57 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:10:57 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:10:57 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:10:57 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:10:57 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:10:57 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:10:57 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:10:57 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:10:57 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:10:57 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:16:27 [lessgo.go:66] Session is disable.
+2016/06/01 19:16:27 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:16:29 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:16:31 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:16:31 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:16:31 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:16:31 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:16:31 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:16:31 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:16:31 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:16:31 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:16:31 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:16:31 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:16:31 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:16:31 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:16:31 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:16:31 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:16:31 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:16:31 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:17:06 [app.go:502][I] uploads\a\密码, 17, <nil>
+2016/06/01 19:17:06 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 2.0001ms | 0
+2016/06/01 19:17:06 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:17:41 [lessgo.go:66] Session is disable.
+2016/06/01 19:17:41 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:17:43 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:17:45 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:17:45 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:17:45 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:17:45 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:17:45 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:17:45 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:17:45 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:17:45 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:17:45 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:17:45 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:17:45 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:17:45 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:17:45 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:17:45 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:17:45 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:17:45 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:17:47 [apimiddleware.go:324][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/06/01 19:17:56 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:17:56 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m200[0m | 1.0460598s | 0
+2016/06/01 19:19:49 [lessgo.go:66] Session is disable.
+2016/06/01 19:19:49 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:19:51 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:19:53 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:19:53 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:19:53 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:19:53 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:19:53 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:19:53 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:19:53 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:19:53 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:19:53 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:19:53 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:19:53 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:19:53 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:19:53 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:19:53 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:19:53 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:19:53 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:20:03 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:20:03 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 958.0548ms | 0
+2016/06/01 19:20:04 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:21:32 [lessgo.go:66] Session is disable.
+2016/06/01 19:21:32 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:21:34 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:21:36 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:21:36 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:21:36 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:21:36 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:21:36 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:21:36 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:21:36 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:21:36 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:21:36 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:21:36 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:21:36 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:21:36 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:21:36 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:21:36 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:21:36 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:21:36 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:21:51 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:21:51 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 1.0990629s | 0
+2016/06/01 19:21:51 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:38:51 [lessgo.go:62] Session is disable.
+2016/06/01 19:38:51 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:38:53 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:38:55 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:38:55 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:38:55 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:38:55 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:38:55 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:38:55 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:38:55 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:38:55 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:38:55 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:38:55 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:38:55 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:38:55 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:38:55 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:38:55 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:38:55 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:38:55 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:39:03 [lessgo.go:62] Session is disable.
+2016/06/01 19:39:03 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:39:05 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:39:07 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:39:07 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:39:07 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:07 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:39:07 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:39:07 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:39:07 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:39:07 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:39:07 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:39:07 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:39:07 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:39:07 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:39:07 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:39:07 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:39:07 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:39:07 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:39:11 [lessgo.go:62] Session is disable.
+2016/06/01 19:39:11 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:39:13 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:39:15 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:39:15 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:39:15 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:39:15 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:39:15 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:39:15 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:39:15 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:39:15 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:39:15 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:39:15 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:39:15 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:39:15 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:39:15 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:39:15 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:39:15 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:39:15 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:39:42 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:39:42 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 1.9711128s | 0
+2016/06/01 19:39:43 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 163.0093ms | 9662
+2016/06/01 19:41:42 [lessgo.go:62] Session is disable.
+2016/06/01 19:41:42 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:41:44 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:41:46 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:41:46 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:41:46 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:41:46 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:41:46 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:41:46 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:41:46 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:41:46 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:41:46 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:41:46 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:41:46 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:41:46 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:41:46 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:41:46 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:41:46 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:41:46 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:42:08 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:42:08 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 21.2152134s | 0
+2016/06/01 19:42:08 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 19.0011ms | 9662
+2016/06/01 19:43:36 [lessgo.go:62] Session is disable.
+2016/06/01 19:43:36 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:43:38 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:43:40 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:43:40 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:43:40 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:43:40 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:43:40 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:43:40 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:43:40 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:43:40 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:43:40 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:43:40 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:43:40 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:43:40 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:43:40 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:43:40 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:43:40 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:43:40 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:44:10 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:44:10 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 21.1382091s | 0
+2016/06/01 19:44:11 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/06/01 19:45:04 [lessgo.go:62] Session is disable.
+2016/06/01 19:45:04 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:45:06 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:45:08 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:45:08 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:45:08 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:45:08 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:45:08 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:45:08 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:45:08 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:45:08 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:45:08 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:45:08 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:45:08 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:45:08 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:45:08 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:45:08 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:45:08 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:45:08 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:45:32 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:45:32 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 21.1432093s | 0
+2016/06/01 19:45:32 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:46:24 [lessgo.go:62] Session is disable.
+2016/06/01 19:46:24 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:46:26 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:46:28 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:46:28 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:46:28 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:46:28 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:46:28 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:46:28 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:46:28 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:46:28 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:46:28 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:46:28 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:46:28 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:46:28 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:46:28 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:46:28 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:46:28 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:46:28 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:46:56 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:46:56 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 23.4613419s | 0
+2016/06/01 19:46:56 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
+2016/06/01 19:47:29 [lessgo.go:62] Session is disable.
+2016/06/01 19:47:29 [service.go:18][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:47:31 [service.go:28][E] sql: unknown driver "sqlite3" (forgotten import?)
+
+2016/06/01 19:47:33 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/01 19:47:33 [app.go:490] | GET     | /admin/login/:user/:password   | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/01 19:47:33 [app.go:490] | CONNECT | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | DELETE  | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | GET     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | HEAD    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | OPTIONS | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | PATCH   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | POST    | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | PUT     | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | TRACE   | /admin                         | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | CONNECT | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | DELETE  | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | GET     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | HEAD    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | OPTIONS | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | PATCH   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | POST    | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | PUT     | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | TRACE   | /admin/index                   | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/01 19:47:33 [app.go:490] | POST    | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func3
+2016/06/01 19:47:33 [app.go:490] | GET     | /upload                        | github.com/lessgo/demo/bizhandler/home.glob.func2
+2016/06/01 19:47:33 [app.go:490] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/01 19:47:33 [app.go:490] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:47:33 [app.go:490] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/01 19:47:33 [app.go:490] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/01 19:47:33 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler/home.glob.func4
+2016/06/01 19:47:33 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/01 19:47:33 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/01 19:47:33 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/01 19:47:33 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/01 19:47:33 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/01 19:47:33 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/01 19:47:56 [app.go:502][I] uploads\a\cef_binary_3.2171.1897_windows32.7z, 67986709, <nil>
+2016/06/01 19:47:56 [apimiddleware.go:324][D] ::1 | POST | /upload | [32m0[0m | 20.9351975s | 0
+2016/06/01 19:47:56 [apimiddleware.go:324][D] ::1 | GET | /favicon.ico | [32m200[0m | 0 | 9662
