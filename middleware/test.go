@@ -11,7 +11,7 @@ var Print = lessgo.ApiMiddleware{
 	Middleware: func(confObject interface{}) lessgo.MiddlewareFunc {
 		return lessgo.WrapMiddleware(func(c *lessgo.Context) error {
 			c.Log().Info("测试中间件-打印一些东西：1234567890")
-			c.Log().Info("param:%v(len=%v),%v(len=%v)", c.ParamNames(), len(c.ParamNames()), c.ParamValues(), len(c.ParamValues()))
+			c.Log().Info("param:%v(len=%v),%v(len=%v)", c.PathParamKeys(), len(c.PathParamKeys()), c.PathParamValues(), len(c.PathParamValues()))
 			return nil
 		})
 	},

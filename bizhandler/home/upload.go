@@ -21,7 +21,7 @@ var PostUpload = lessgo.ApiHandler{
 	Desc:   "文件上传",
 	Method: "POST",
 	Handler: func(c *lessgo.Context) error {
-		fname, size, err := c.SaveFile("test", true, "a/?")
+		fname, size, err := c.SaveFile("test", false, "/a/?")
 		c.Log().Info("%v, %v, %v", fname, size, err)
 		return err
 	},
