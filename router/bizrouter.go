@@ -16,6 +16,8 @@ func init() {
 		lessgo.Leaf("/md1", bizhandler.Markdown1),
 		lessgo.Leaf("/md2", bizhandler.Markdown2),
 		lessgo.Leaf("/websocket", bizhandler.WebSocket, middleware.ShowHeader),
+		lessgo.Leaf("/checkbox", bizhandler.GetCheckbox),
+		lessgo.Leaf("/checkbox", bizhandler.PostCheckbox),
 		lessgo.Branch("/home", "前台",
 			lessgo.Leaf("/index", home.Index, middleware.ShowHeader),
 		).Use(middleware.Print),
