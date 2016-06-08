@@ -4,8 +4,8 @@ import (
 	"github.com/lessgo/lessgo"
 	"github.com/lessgo/lessgoext/swagger"
 
-	_ "github.com/lessgo/lessgoext/dbservice/gorm"
-	_ "github.com/lessgo/lessgoext/dbservice/xorm"
+	// _ "github.com/lessgo/lessgoext/dbservice/gorm"
+	// _ "github.com/lessgo/lessgoext/dbservice/xorm"
 
 	_ "github.com/lessgo/demo/middleware"
 	_ "github.com/lessgo/demo/router"

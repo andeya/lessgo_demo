@@ -16,6 +16,8 @@ var Markdown2 = lessgo.ApiHandler{
 	Desc:   "Markdown测试(不含目录)",
 	Method: "GET",
 	Handler: func(c *lessgo.Context) error {
-		return c.Markdown("bizview/test.md")
+		// return c.Markdown("bizview/test.md")
+		c.Log().Warn("bizview/test - 副本.MD")
+		return c.Markdown("bizview/test - 副本.MD")
 	},
 }.Reg()

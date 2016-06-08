@@ -26,3 +26,39 @@ var ShowHeader = lessgo.ApiMiddleware{
 		return nil
 	},
 }.Reg()
+
+var Param1 = lessgo.ApiMiddleware{
+	Name: "测试参数",
+	Desc: "测试参数",
+	Params: []lessgo.Param{
+		{"pathParam", "path", true, "", "来自中间件"},
+		{"queryParam", "query", true, "", "来自中间件"},
+		{"formParam", "formData", false, "", "来自中间件"},
+	},
+	Config: nil,
+	Middleware: func(c *lessgo.Context) error {
+		c.Log().Info("pathParam: %v", c.PathParam("pathParam"))
+		c.Log().Info("queryParam: %v", c.QueryParam("queryParam"))
+		c.Log().Info("formParam: %v", c.FormParam("formParam"))
+		return nil
+	},
+}.Reg()
+
+var Param2 = lessgo.ApiMiddleware{
+	Name: "测试参数",
+	Desc: "测试参数",
+	Params: []lessgo.Param{
+		{"user", "formData", false, "henry11111", "用户名"},
+		{"user2", "formData", false, "henry11111", "用户名"},
+		{"password", "formData", true, "1111111111", "密码"},
+		{"password2", "formData", true, "1111111111", "密码"},
+	},
+	Config: nil,
+	Middleware: func(c *lessgo.Context) error {
+		c.Log().Info("user: %v", c.FormParam("user"))
+		c.Log().Info("user2: %v", c.FormParam("user"))
+		c.Log().Info("password: %v", c.FormParam("password"))
+		c.Log().Info("password2: %v", c.FormParam("password"))
+		return nil
+	},
+}.Reg()

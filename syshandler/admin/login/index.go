@@ -6,6 +6,10 @@ import (
 	"github.com/lessgo/demo/sysmodel/admin"
 )
 
+type X struct {
+	Test2 string
+}
+
 var Index = ApiHandler{
 	Desc:   "后台管理登录操作",
 	Method: "Post",
@@ -16,6 +20,13 @@ var Index = ApiHandler{
 		{"password", "formData", true, "1111111111", "密码"},
 		{"password", "query", true, "2222222222", "密码"},
 		{"password", "path", true, "3333333333", "密码"},
+	},
+	HTTP200: []Result{
+		{1, map[string]string{"test1": "ret1"}},
+		{2, &X{Test2: "ret2"}},
+		{3, []string{"ret3"}},
+		{4, "ret4"},
+		{5, 5},
 	},
 	Handler: func(c *Context) error {
 		// 测试读取cookie
