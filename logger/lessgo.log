@@ -1,0 +1,473 @@
+2016/06/30 10:38:46 [lessgo.go:62] Session is enable.
+2016/06/30 10:38:46 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/30 10:38:46 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:46 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/30 10:38:46 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/30 10:38:46 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/06/30 10:38:46 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/06/30 10:38:46 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/06/30 10:38:46 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/30 10:38:46 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/30 10:38:46 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/06/30 10:38:46 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/06/30 10:38:46 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/30 10:38:46 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/06/30 10:38:46 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/06/30 10:38:46 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/06/30 10:38:46 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/30 10:38:46 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/30 10:38:46 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/30 10:38:46 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/30 10:38:46 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/30 10:38:46 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8080 (debug-mode) (disable-graceful-restart)
+2016/06/30 10:38:46 [lessgo.go:541][F] listen tcp 0.0.0.0:8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016/06/30 10:38:59 [lessgo.go:62] Session is enable.
+2016/06/30 10:38:59 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/06/30 10:38:59 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/30 10:38:59 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/06/30 10:38:59 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/06/30 10:38:59 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/06/30 10:38:59 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/06/30 10:38:59 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/06/30 10:38:59 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/06/30 10:38:59 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/06/30 10:38:59 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/06/30 10:38:59 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/06/30 10:38:59 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/06/30 10:38:59 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/06/30 10:38:59 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/06/30 10:38:59 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/06/30 10:38:59 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/06/30 10:38:59 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/06/30 10:38:59 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/06/30 10:38:59 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/06/30 10:38:59 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/06/30 10:38:59 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/06/30 10:39:30 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc | [36m301[0m | 0 | 0
+2016/06/30 10:39:30 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/ | [36m302[0m | 0 | 0
+2016/06/30 10:39:31 [apimiddleware.go:341][D] 192.168.1.237 | GET | /swagger.json | [32m200[0m | 1.0001ms | 33605
+2016/06/30 10:39:52 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/index.html | [32m200[0m | 19.001ms | 4475
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/css/typography.css | [32m200[0m | 1ms | 452
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/object-assign-pollyfill.js | [32m200[0m | 0 | 715
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/jquery.slideto.min.js | [32m200[0m | 18.001ms | 369
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/jquery.wiggle.min.js | [32m200[0m | 0 | 762
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [32m200[0m | 4.0002ms | 4119
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/jquery-1.8.0.min.js | [32m200[0m | 25.0014ms | 92555
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/backbone-min.js | [32m200[0m | 5.0002ms | 20390
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/css/reset.css | [32m200[0m | 42.0024ms | 1066
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/handlebars-2.0.0.js | [32m200[0m | 35.002ms | 48517
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [32m200[0m | 1ms | 11037
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/js-yaml.min.js | [32m200[0m | 35.002ms | 43621
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/css/screen.css | [32m200[0m | 71.0041ms | 48978
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/lodash.min.js | [32m200[0m | 35.002ms | 52646
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [32m200[0m | 1.0001ms | 1025
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/marked.js | [32m200[0m | 3.0002ms | 28156
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/swagger-oauth.js | [32m200[0m | 1ms | 11223
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/lib/jsoneditor.min.js | [32m200[0m | 12.0007ms | 130042
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/images/logo_small.png | [32m200[0m | 29.0016ms | 770
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/css/print.css | [32m200[0m | 7.0004ms | 46473
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/swagger-ui.js | [32m200[0m | 262.015ms | 1791504
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /swagger.json | [32m200[0m | 2.0001ms | 33605
+2016/06/30 10:39:53 [apimiddleware.go:341][D] 192.168.1.237 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 14.0008ms | 645
+2016/07/05 19:27:38 [lessgo.go:62] Session is enable.
+2016/07/05 19:27:38 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/07/05 19:27:38 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:27:38 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/07/05 19:27:38 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/07/05 19:27:38 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/07/05 19:27:38 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/07/05 19:27:38 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/07/05 19:27:38 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:27:38 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:27:38 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/07/05 19:27:38 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/07/05 19:27:38 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/07/05 19:27:38 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/07/05 19:27:38 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/07/05 19:27:38 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/07/05 19:27:38 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/07/05 19:27:38 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/07/05 19:27:38 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/07/05 19:27:38 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/07/05 19:27:38 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/07/05 19:27:38 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/07/05 19:27:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html | [32m200[0m | 24.0014ms | 4475
+2016/07/05 19:27:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [32m200[0m | 0 | 452
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [32m200[0m | 130.0075ms | 1066
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [32m200[0m | 79.0045ms | 715
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [32m200[0m | 1ms | 369
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [32m200[0m | 375.0214ms | 48978
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [32m200[0m | 34.0019ms | 762
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [32m200[0m | 31.0017ms | 4119
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [32m200[0m | 150.0086ms | 48517
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [32m200[0m | 171.0098ms | 92555
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [32m200[0m | 108.0062ms | 52646
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [32m200[0m | 160.0092ms | 43621
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [32m200[0m | 43.0024ms | 11037
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [32m200[0m | 48.0028ms | 20390
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [32m200[0m | 37.0021ms | 28156
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [32m200[0m | 44.0025ms | 1025
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [32m200[0m | 0 | 11223
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [32m200[0m | 213.0122ms | 130042
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [32m200[0m | 23.0014ms | 770
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [32m200[0m | 48.0028ms | 46473
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [32m200[0m | 373.0213ms | 1791504
+2016/07/05 19:27:49 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 2.0001ms | 33601
+2016/07/05 19:27:50 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 23.0013ms | 645
+2016/07/05 19:27:56 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/throbber.gif | [32m200[0m | 52.0029ms | 9257
+2016/07/05 19:29:45 [lessgo.go:62] Session is enable.
+2016/07/05 19:29:45 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/07/05 19:29:45 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:29:45 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/07/05 19:29:45 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/07/05 19:29:45 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/07/05 19:29:45 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/07/05 19:29:45 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/07/05 19:29:45 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:29:45 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:29:45 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/07/05 19:29:45 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/07/05 19:29:45 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/07/05 19:29:45 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/07/05 19:29:45 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/07/05 19:29:45 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/07/05 19:29:45 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/07/05 19:29:45 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/07/05 19:29:45 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/07/05 19:29:45 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/07/05 19:29:45 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/07/05 19:29:45 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 0 | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 1ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 8.0004ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 7.0004ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 1ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 2.0002ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 0 | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 0 | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 0 | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 8.0005ms | 0
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 2.0001ms | 33869
+2016/07/05 19:29:48 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 1ms | 645
+2016/07/05 19:30:52 [lessgo.go:62] Session is enable.
+2016/07/05 19:30:52 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/07/05 19:30:52 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:30:52 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/07/05 19:30:52 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/07/05 19:30:52 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/07/05 19:30:52 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/07/05 19:30:52 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/07/05 19:30:52 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:30:52 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:30:52 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/07/05 19:30:52 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/07/05 19:30:52 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/07/05 19:30:52 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/07/05 19:30:52 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/07/05 19:30:52 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/07/05 19:30:52 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/07/05 19:30:52 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/07/05 19:30:52 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/07/05 19:30:52 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/07/05 19:30:52 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/07/05 19:30:52 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 1ms | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 5.0002ms | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 0 | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 2.0001ms | 33514
+2016/07/05 19:30:54 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 0 | 645
+2016/07/05 19:31:16 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:31:16 [context.go:807][E] http: no such file
+2016/07/05 19:31:16 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 0 | 18
+2016/07/05 19:34:33 [lessgo.go:62] Session is enable.
+2016/07/05 19:34:33 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/07/05 19:34:33 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:34:33 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/07/05 19:34:33 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/07/05 19:34:33 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/07/05 19:34:33 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/07/05 19:34:33 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/07/05 19:34:33 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:34:33 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:34:33 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/07/05 19:34:33 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/07/05 19:34:33 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/07/05 19:34:33 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/07/05 19:34:33 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/07/05 19:34:33 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/07/05 19:34:33 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/07/05 19:34:33 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/07/05 19:34:33 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/07/05 19:34:33 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/07/05 19:34:33 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/07/05 19:34:33 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/07/05 19:34:35 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 5.0003ms | 0
+2016/07/05 19:34:35 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 3.0002ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 0 | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 1ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 0 | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 0 | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 1ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 0 | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 1ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 1ms | 0
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 2.0001ms | 33514
+2016/07/05 19:34:36 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 0 | 645
+2016/07/05 19:34:52 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:34:52 [context.go:807][E] http: no such file
+2016/07/05 19:34:52 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 0 | 18
+2016/07/05 19:39:41 [lessgo.go:62] Session is enable.
+2016/07/05 19:39:41 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/07/05 19:39:41 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:39:41 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/07/05 19:39:41 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/07/05 19:39:41 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/07/05 19:39:41 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/07/05 19:39:41 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/07/05 19:39:41 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:39:41 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:39:41 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/07/05 19:39:41 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/07/05 19:39:41 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/07/05 19:39:41 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/07/05 19:39:41 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/07/05 19:39:41 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/07/05 19:39:41 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/07/05 19:39:41 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/07/05 19:39:41 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/07/05 19:39:41 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/07/05 19:39:41 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/07/05 19:39:41 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 3.0002ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 10.0006ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 3.0002ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 7.0004ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 3.0002ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 10.0006ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 0 | 0
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 3.0002ms | 33514
+2016/07/05 19:39:43 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 0 | 645
+2016/07/05 19:39:53 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:39:53 [context.go:807][E] http: no such file
+2016/07/05 19:39:53 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 0 | 18
+2016/07/05 19:40:02 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:40:02 [context.go:807][E] http: no such file
+2016/07/05 19:40:02 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 1.0001ms | 18
+2016/07/05 19:40:55 [apimiddleware.go:341][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/07/05 19:40:55 [apimiddleware.go:341][D] ::1 | GET | /favicon.ico | [32m200[0m | 65.0038ms | 9662
+2016/07/05 19:41:00 [app.go:509][I] /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg, 374417, <nil>
+2016/07/05 19:41:00 [apimiddleware.go:341][D] ::1 | POST | /upload | [32m200[0m | 55.0031ms | 0
+2016/07/05 19:41:31 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [32m200[0m | 46.0026ms | 374417
+2016/07/05 19:41:42 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [36m304[0m | 11.0006ms | 0
+2016/07/05 19:41:42 [apimiddleware.go:341][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/07/05 19:41:44 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [36m304[0m | 0 | 0
+2016/07/05 19:41:44 [apimiddleware.go:341][D] ::1 | GET | /favicon.ico | [32m200[0m | 1ms | 9662
+2016/07/05 19:41:47 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [36m304[0m | 0 | 0
+2016/07/05 19:41:57 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [36m304[0m | 0 | 0
+2016/07/05 19:42:03 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [36m304[0m | 0 | 0
+2016/07/05 19:42:26 [apimiddleware.go:341][D] ::1 | GET | /uploads/a/99224e6d69a751f6ae5e69208d3ceb85feded3dc.jpg | [36m304[0m | 0 | 0
+2016/07/05 19:43:09 [apimiddleware.go:341][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/07/05 19:43:10 [apimiddleware.go:341][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/07/05 19:43:10 [apimiddleware.go:341][D] ::1 | GET | /favicon.ico | [32m200[0m | 1.0001ms | 9662
+2016/07/05 19:43:20 [app.go:509][I] /uploads/a/1.png, 422905, <nil>
+2016/07/05 19:43:20 [apimiddleware.go:341][D] ::1 | POST | /upload | [32m200[0m | 15.0009ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html | [36m304[0m | 40.0023ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 4.0002ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 8.0005ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 6.0003ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 3.0001ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 0 | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 4.0002ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 0 | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 0 | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 7.0004ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 6.0003ms | 0
+2016/07/05 19:43:40 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 0 | 0
+2016/07/05 19:43:41 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 1.0001ms | 33514
+2016/07/05 19:44:13 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:44:13 [context.go:807][E] http: no such file
+2016/07/05 19:44:13 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 0 | 18
+2016/07/05 19:45:44 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:45:44 [context.go:807][E] http: no such file
+2016/07/05 19:45:44 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 0 | 18
+2016/07/05 19:46:57 [apimiddleware.go:341][D] ::1 | GET | /upload | [32m200[0m | 0 | 185
+2016/07/05 19:47:29 [app.go:509][I] , 0, http: no such file
+2016/07/05 19:47:29 [context.go:807][E] http: no such file
+2016/07/05 19:47:29 [apimiddleware.go:341][D] ::1 | POST | /upload | [31m500[0m | 0 | 18
+2016/07/05 19:48:44 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html?baseUrl=http%3A%2F%2Fpetstore.swagger.io%2Fv2%2Fswagger.json | [32m200[0m | 329.0188ms | 4475
+2016/07/05 19:48:44 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 1.0001ms | 33514
+2016/07/05 19:49:07 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/explorer_icons.png | [32m200[0m | 24.0014ms | 5763
+2016/07/05 19:52:14 [lessgo.go:62] Session is enable.
+2016/07/05 19:52:14 [main.go:16] Swagger API doc can be accessed from "/apidoc", but only allows LAN.
+2016/07/05 19:52:14 [app.go:497] | CONNECT | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | DELETE  | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | GET     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | HEAD    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | OPTIONS | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | PATCH   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | POST    | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | PUT     | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | TRACE   | /admin/index/:pathParam        | github.com/lessgo/demo/syshandler/admin.glob.func1
+2016/07/05 19:52:14 [app.go:497] | POST    | /admin/login/:pathParam/:user/:password | github.com/lessgo/demo/syshandler/admin/login.glob.func1
+2016/07/05 19:52:14 [app.go:497] | GET     | /apidoc/*filepath              | github.com/lessgo/lessgoext/swagger.glob.func3
+2016/07/05 19:52:14 [app.go:497] | GET     | /baidu                         | github.com/lessgo/demo/bizhandler.glob.func5
+2016/07/05 19:52:14 [app.go:497] | POST    | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func2
+2016/07/05 19:52:14 [app.go:497] | GET     | /checkbox                      | github.com/lessgo/demo/bizhandler.glob.func1
+2016/07/05 19:52:14 [app.go:497] | GET     | /home                          | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:52:14 [app.go:497] | GET     | /home/index                    | github.com/lessgo/demo/bizhandler/home.glob.func1
+2016/07/05 19:52:14 [app.go:497] | GET     | /md1                           | github.com/lessgo/demo/bizhandler.glob.func3
+2016/07/05 19:52:14 [app.go:497] | GET     | /md2                           | github.com/lessgo/demo/bizhandler.glob.func4
+2016/07/05 19:52:14 [app.go:497] | GET     | /swagger.json                  | github.com/lessgo/lessgoext/swagger.glob.func2
+2016/07/05 19:52:14 [app.go:497] | POST    | /upload                        | github.com/lessgo/demo/bizhandler.glob.func7
+2016/07/05 19:52:14 [app.go:497] | GET     | /upload                        | github.com/lessgo/demo/bizhandler.glob.func6
+2016/07/05 19:52:14 [group.go:37] | WS      | /websocket                     | github.com/lessgo/demo/bizhandler.glob.func8
+2016/07/05 19:52:14 [virtrouter.go:27] | GET     | /favicon.ico                   | static/img/favicon.ico
+2016/07/05 19:52:14 [virtrouter.go:39] | GET     | /uploads/*filepath             | uploads
+2016/07/05 19:52:14 [virtrouter.go:39] | GET     | /static/*filepath              | static
+2016/07/05 19:52:14 [virtrouter.go:39] | GET     | /biz/*filepath                 | bizview
+2016/07/05 19:52:14 [virtrouter.go:39] | GET     | /sys/*filepath                 | sysview
+2016/07/05 19:52:14 [main.go:20] > lessgo listening and serving HTTP on 0.0.0.0:8081 (debug-mode) (disable-graceful-restart)
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/index.html?baseUrl=http%3A%2F%2Fpetstore.swagger.io%2Fv2%2Fswagger.json | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/typography.css | [36m304[0m | 5.0002ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/reset.css | [36m304[0m | 1ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.slideto.min.js | [36m304[0m | 4.0002ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery-1.8.0.min.js | [36m304[0m | 4.0002ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/screen.css | [36m304[0m | 3.0002ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/object-assign-pollyfill.js | [36m304[0m | 4.0002ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/css/print.css | [36m304[0m | 2.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.ba-bbq.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/handlebars-2.0.0.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jquery.wiggle.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/js-yaml.min.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/lodash.min.js | [36m304[0m | 1ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/backbone-min.js | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/swagger-ui.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack.js | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/highlight.9.1.0.pack_extended.js | [36m304[0m | 1.0001ms | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/jsoneditor.min.js | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/marked.js | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/lib/swagger-oauth.js | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/logo_small.png | [36m304[0m | 0 | 0
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /swagger.json | [32m200[0m | 3.0002ms | 33518
+2016/07/05 19:52:21 [apimiddleware.go:341][D] ::1 | GET | /apidoc/images/favicon-16x16.png | [32m200[0m | 0 | 645
+2016/07/05 19:52:31 [app.go:509][I] /uploads/a/687474703a2f2f696d6167652e667265652e696e2e74682f762f323031332f69642f3135303231383036343532362e6a7067.jpg, 94537, <nil>
+2016/07/05 19:52:31 [apimiddleware.go:341][D] ::1 | POST | /upload | [32m200[0m | 205.0117ms | 0

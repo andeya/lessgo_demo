@@ -20,9 +20,12 @@ var GetUpload = lessgo.ApiHandler{
 var PostUpload = lessgo.ApiHandler{
 	Desc:   "文件上传",
 	Method: "POST",
+	Params: []lessgo.Param{
+		{"test", "formData", true, nil, "文件"},
+	},
 	Handler: func(c *lessgo.Context) error {
-		fname, size, err := c.SaveFile("test", false, "/a/?")
-		c.Log().Info("%v, %v, %v", fname, size, err)
+		fileUrl, size, err := c.SaveFile("test", false, "/a/?")
+		c.Log().Info("%v, %v, %v", fileUrl, size, err)
 		return err
 	},
 }.Reg()
