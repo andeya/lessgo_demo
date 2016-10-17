@@ -1,2 +1,4 @@
+checkrealip=false
+freeaccess=false
 ipprefix=::;127.;192.168.;10.
 
