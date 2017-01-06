@@ -3,7 +3,7 @@ package biz_handler
 import (
 	"time"
 
-	"github.com/lessgo/lessgo"
+	"github.com/henrylee2cn/lessgo"
 )
 
 var WebSocket = lessgo.ApiHandler{

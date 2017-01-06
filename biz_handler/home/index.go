@@ -1,7 +1,7 @@
 package home
 
 import (
-	"github.com/lessgo/lessgo"
+	"github.com/henrylee2cn/lessgo"
 )
 
 var Index = lessgo.ApiHandler{

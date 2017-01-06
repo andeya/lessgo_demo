@@ -1,9 +1,9 @@
 package login
 
 import (
-	. "github.com/lessgo/lessgo"
+	. "github.com/henrylee2cn/lessgo"
 
-	"github.com/lessgo/demo/sys_model/admin"
+	"github.com/henrylee2cn/lessgo_demo/sys_model/admin"
 )
 
 type X struct {

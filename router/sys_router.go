@@ -1,11 +1,11 @@
 package router
 
 import (
-	"github.com/lessgo/lessgo"
+	"github.com/henrylee2cn/lessgo"
 
-	"github.com/lessgo/demo/middleware"
-	"github.com/lessgo/demo/sys_handler/admin"
-	"github.com/lessgo/demo/sys_handler/admin/login"
+	"github.com/henrylee2cn/lessgo_demo/middleware"
+	"github.com/henrylee2cn/lessgo_demo/sys_handler/admin"
+	"github.com/henrylee2cn/lessgo_demo/sys_handler/admin/login"
 )
 
 func init() {

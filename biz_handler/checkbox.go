@@ -1,7 +1,7 @@
 package biz_handler
 
 import (
-	"github.com/lessgo/lessgo"
+	"github.com/henrylee2cn/lessgo"
 )
 
 var GetCheckbox = lessgo.ApiHandler{

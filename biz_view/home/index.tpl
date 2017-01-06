@@ -18,12 +18,12 @@
             <h1>{{content}}</h1>
         </div>
         <div class="footer">
-            Github website: <a href="https://github.com/lessgo/lessgo">Lessgo {{version}}</a> / Discuss: <a href="http://jq.qq.com/?_wv=1027&k=fzi4p1">Go-Web 编程</a> / MIT.
+            Github website: <a href="https://github.com/henrylee2cn/lessgo">Lessgo {{version}}</a> / Discuss: <a href="http://jq.qq.com/?_wv=1027&k=fzi4p1">Go-Web 编程</a> / MIT.
         </div>
         <!-- github -->
         <div>
             <script type="text/javascript" src="/biz/home/jquery.githubRepoWidget2.js"></script>
-            <div class="github-widget" data-repo="lessgo/lessgo" style="margin:5px;"></div>
+            <div class="github-widget" data-repo="henrylee2cn/lessgo" style="margin:5px;"></div>
         </div>
     </div>
 </body>

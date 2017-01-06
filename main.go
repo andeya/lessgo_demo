@@ -1,15 +1,15 @@
 package main
 
 import (
-	"github.com/lessgo/lessgo"
-	"github.com/lessgo/lessgoext/swagger"
+	"github.com/henrylee2cn/lessgo"
+	"github.com/henrylee2cn/lessgoext/swagger"
 
-	// _ "github.com/lessgo/lessgoext/dbservice/gorm"
-	// _ "github.com/lessgo/lessgoext/dbservice/xorm"
-	_ "github.com/lessgo/lessgoext/dbservice/sqlx"
+	// _ "github.com/henrylee2cn/lessgoext/dbservice/gorm"
+	// _ "github.com/henrylee2cn/lessgoext/dbservice/xorm"
+	_ "github.com/henrylee2cn/lessgoext/dbservice/sqlx"
 
-	_ "github.com/lessgo/demo/middleware"
-	_ "github.com/lessgo/demo/router"
+	_ "github.com/henrylee2cn/lessgo_demo/middleware"
+	_ "github.com/henrylee2cn/lessgo_demo/router"
 )
 
 func main() {
