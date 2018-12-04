@@ -3,3 +3,4 @@
 *.map linguist-language=go
 *.js linguist-language=go
 *.ico linguist-language=go
+*.tpl linguist-language=go
