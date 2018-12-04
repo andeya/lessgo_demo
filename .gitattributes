@@ -1,0 +1,5 @@
+*.css linguist-language=go
+*.html linguist-language=go
+*.map linguist-language=go
+*.js linguist-language=go
+*.ico linguist-language=go
